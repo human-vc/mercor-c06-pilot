@@ -10,7 +10,7 @@ Pilot for a clarification track on APEX-Agents: one requirement is withheld from
 | Asking permitted | Fable 5.1 | 4/8 | 0/8 |
 | Ask before assuming | Gemini 3.8 Flash | 2/8 | 1/8 |
 
-Under the permissive prompt, Gemini 3.8 Flash averaged 0.83 on complete tasks and 0.42 (Flash judge) or 0.40 (Pro judge) on adapted tasks; Fable 5.1 averaged 0.70 and 0.54. Per-task scores, questions, simulator replies, grades under both judges and the replay check are in `results/`. The Fable 5.1 runs used a different harness (its own file and shell tools, no sandbox, one continuation per question with the scripted reply, no simulators); `results/subagent_fable_20260916/summary.json` records the differences.
+Under the permissive prompt, Gemini 3.8 Flash averaged 0.83 on complete tasks and 0.42 (Flash judge) or 0.40 (Pro judge) on adapted tasks; Fable 5.1 averaged 0.70 and 0.54. Per-task scores, questions, simulator replies, grades under both judges and the replay check are in `results/`.
 
 ## Prompts
 
