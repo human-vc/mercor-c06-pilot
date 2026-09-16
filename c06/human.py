@@ -9,7 +9,7 @@ from pathlib import Path
 
 from .harbor import HarborTask
 
-from .llm import GeminiModel, Usage
+from .llm import GeminiModel, Usage, make_model
 
 from .run import continue_run
 
@@ -51,9 +51,9 @@ def main():
 
     usage = Usage()
 
-    model = GeminiModel(a.model, usage=usage)
+    model = make_model(a.model, usage=usage)
 
-    judge = GeminiModel(a.judge or a.model, usage=usage)
+    judge = make_model(a.judge or a.model, usage=usage)
 
     meta = json.loads((state / "meta.json").read_text())
 

@@ -1,0 +1,11 @@
+{
+ "model": "claude-fable-5-1 as a Claude Code subagent",
+ "harness": "Claude Code tools (Bash, Read, Write), no sandbox, no save-and-restore; one continuation per contact with the scripted reply; judge gemini-3.8-flash",
+ "prompt_condition": "permissive (may ask once), same wording as the pilot's permissive prompt adapted to file-based asking",
+ "asked_adapted": 4,
+ "asked_complete": 0,
+ "mean_complete": 0.7,
+ "mean_adapted": 0.5416666666666666,
+ "voided": 0,
+ "containment": "no run touched the repository, adaptations or answer keys; several runs wrote temporary files into their Claude Code session scratchpad, and two concurrent runs collided on a scratch file there (reported by the BBDC adapted agent, which said it did not use it)"
+}

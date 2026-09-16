@@ -11,7 +11,7 @@ from .grader import grade
 
 from .harbor import HarborTask
 
-from .llm import GeminiModel, Usage
+from .llm import GeminiModel, Usage, make_model
 
 
 TASKS = Path("data/apex-agents-v1.1/tasks")

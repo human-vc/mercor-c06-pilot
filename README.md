@@ -4,19 +4,21 @@ Pilot for a clarification track on APEX-Agents: one requirement is withheld from
 
 ## Results
 
-| Pilot condition | Asked: adapted tasks | Asked: complete tasks |
-|---|---:|---:|
-| Asking permitted | 0/8 | 0/8 |
-| Ask before assuming | 2/8 | 1/8 |
+| Pilot condition | Model | Asked: adapted tasks | Asked: complete tasks |
+|---|---|---:|---:|
+| Asking permitted | Gemini 3.8 Flash | 0/8 | 0/8 |
+| Asking permitted | Fable 5.1 | 4/8 | 0/8 |
+| Ask before assuming | Gemini 3.8 Flash | 2/8 | 1/8 |
 
-Under the permissive prompt, average rubric scores were 0.83 on complete tasks and 0.42 (Flash judge) or 0.40 (Pro judge) on adapted tasks. Per-task scores, simulator replies, grades under both judges and the replay check are in `results/`.
+Under the permissive prompt, Gemini 3.8 Flash averaged 0.83 on complete tasks and 0.42 (Flash judge) or 0.40 (Pro judge) on adapted tasks; Fable 5.1 averaged 0.70 and 0.54. Per-task scores, questions, simulator replies, grades under both judges and the replay check are in `results/`. The Fable 5.1 runs used a different harness (its own file and shell tools, no sandbox, one continuation per question with the scripted reply, no simulators); `results/subagent_fable_20260916/summary.json` records the differences.
 
 ## Prompts
 
 - Agent: `c06/agent.py` (`SYSTEM`; `ASK_PROMPT` is the directive variant).
 - Simulated clients: `c06/client.py` (`SIM_CONFIGS`, scripted reply).
 - Grading: `c06/mercor_prompts.py`, Mercor's judge prompt strings from `Mercor-Intelligence/archipelago` at `79668ba`; one judge call per positive criterion, applied in `c06/grader.py`.
-- Models: `gemini-3.8-flash` (agent, simulators, first judge), `gemini-3.1-pro-preview` (second judge).
+- Models: `gemini-3.8-flash` (agent, simulators, first judge), `claude-fable-5-1` (agent), `gemini-3.1-pro-preview` (second judge).
+- The prompt texts and commits behind the reported runs are in `c06/prompts_used.md`. The simulator wording in `c06/client.py` was revised after those runs and has not been used for any reported result.
 
 ## Setup
 
@@ -33,3 +35,7 @@ ASK=1 REPEATS=2 OUT=runs/pilot_ask ./run_pilot.sh
 ./.venv/bin/python -m c06.regrade runs/pilot/<stamp> --judge gemini-3.1-pro-preview
 ./.venv/bin/python -m c06.replay data/apex-agents-v1.1/tasks/<task> --ask-prompt --contacts 4
 ```
+
+## Limitations
+
+Custom harness rather than Mercor's environment; eight selected tasks; one agent model; no comparison against replies from task authors; grading by an LLM judge with some remaining ambiguity on answers that list several scenarios.

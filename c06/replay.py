@@ -17,7 +17,7 @@ from .grader import grade
 
 from .harbor import HarborTask
 
-from .llm import GeminiModel, StubModel, Usage
+from .llm import GeminiModel, StubModel, Usage, make_model
 
 from .run import continue_run, finish, neutral_dir
 
@@ -57,9 +57,9 @@ def main():
 
     usage = Usage()
 
-    model = StubModel(usage=usage) if a.stub else GeminiModel(a.model, usage=usage)
+    model = make_model(a.model, usage=usage, stub=a.stub)
 
-    judge = StubModel(usage=usage) if a.stub else GeminiModel(a.judge or a.model, usage=usage)
+    judge = make_model(a.judge or a.model, usage=usage, stub=a.stub)
 
     task = HarborTask(a.task_dir, Path("adapts") / f"{Path(a.task_dir).name}.json")
 

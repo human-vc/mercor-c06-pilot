@@ -23,7 +23,7 @@ from .client import SIM_CONFIGS, scripted_reply, simulated_reply
 
 from .grader import grade
 
-from .llm import GeminiModel, StubModel, Usage
+from .llm import GeminiModel, StubModel, Usage, make_model as _make_model
 
 from .state import restore_state, save_state, seal_contents
 
@@ -34,11 +34,7 @@ from .task import Task
 
 def make_model(name, usage, stub):
 
-    if stub:
-
-        return StubModel(usage=usage)
-
-    return GeminiModel(name, usage=usage)
+    return _make_model(name, usage=usage, stub=stub)
 
 
 NEUTRAL = Path("/private/tmp/c06w")

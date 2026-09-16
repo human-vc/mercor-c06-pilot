@@ -41,7 +41,9 @@ def run_agent(model, task_text, workdir, transcript=None, contents=None, client_
 
     if client_reply is not None:
 
-        contents.append(model.tool_result_content("message_client", client_reply))
+        pending = model.pending_call_id(contents, "message_client") if hasattr(model, "pending_call_id") else None
+
+        contents.append(model.tool_result_content("message_client", client_reply, pending))
 
         transcript.append({"role": "tool", "name": "message_client", "result": client_reply})
 
@@ -95,7 +97,7 @@ def run_agent(model, task_text, workdir, transcript=None, contents=None, client_
 
             transcript.append({"role": "tool", "name": call.name, "result": str(result)[:4000]})
 
-            contents.append(model.tool_result_content(call.name, result))
+            contents.append(model.tool_result_content(call.name, result, call.id))
 
             if log:
 

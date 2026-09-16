@@ -11,6 +11,8 @@ dependencies = [
   "huggingface-hub>=1.0",
   "python-pptx>=1.0.2",
   "pandas>=3.0.5",
+  "openai>=3.14.1",
+  "anthropic>=1.6.0",
 ]
 
 [tool.uv]

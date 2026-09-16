@@ -50,6 +50,8 @@ class FunctionCall:
 
     args: dict
 
+    id: str = ""
+
 
 @dataclass
 
@@ -72,10 +74,6 @@ def extract_json(text):
 
 
 def load_env():
-
-    if "GOOGLE_API_KEY" in os.environ:
-
-        return
 
     env = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
 
@@ -182,9 +180,14 @@ class GeminiModel:
         return self.types.Content(role="user", parts=[self.types.Part.from_text(text=text)])
 
 
-    def tool_result_content(self, name, result):
+    def tool_result_content(self, name, result, call_id=None):
 
         return self.types.Content(role="user", parts=[self.types.Part.from_function_response(name=name, response={"result": result})])
+
+
+    def pending_call_id(self, contents, name):
+
+        return None
 
 
 class StubModel:
@@ -260,8 +263,320 @@ class StubModel:
         return {"kind": "user", "text": text}
 
 
-    def tool_result_content(self, name, result):
+    def tool_result_content(self, name, result, call_id=None):
 
         kind = "client_reply" if name == "message_client" else ("wrote" if name == "write_file" else "tool")
 
         return {"kind": kind, "name": name, "text": str(result)}
+
+
+def _merge_user_runs(messages):
+
+    merged = []
+
+    for m in messages:
+
+        if merged and m["role"] == "user" and merged[-1]["role"] == "user":
+
+            merged[-1] = {"role": "user", "content": list(merged[-1]["content"]) + list(m["content"])}
+
+        else:
+
+            merged.append({"role": m["role"], "content": list(m["content"]) if isinstance(m["content"], list) else m["content"]})
+
+    return merged
+
+
+class AnthropicModel:
+
+    def __init__(self, model, usage=None, temperature=0.2, max_tokens=8192):
+
+        import anthropic
+
+        load_env()
+
+        self.client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+        self.model = model
+
+        self.usage = usage or Usage()
+
+        self.temperature = temperature
+
+        self.max_tokens = max_tokens
+
+        self.last_tools = None
+
+
+    def _tools(self, tools):
+
+        return [{"name": d["name"], "description": d["description"], "input_schema": d["parameters"]} for d in tools]
+
+
+    def chat(self, system, contents, tools=None, json_mode=False):
+
+        messages = _merge_user_runs(contents)
+
+        if messages and messages[-1]["role"] == "user" and isinstance(messages[-1]["content"], list) and messages[-1]["content"]:
+
+            last = dict(messages[-1]["content"][-1])
+
+            last["cache_control"] = {"type": "ephemeral"}
+
+            messages[-1] = {"role": "user", "content": messages[-1]["content"][:-1] + [last]}
+
+        kw = dict(model=self.model, max_tokens=self.max_tokens, temperature=self.temperature, system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}], messages=messages)
+
+        if tools:
+
+            kw["tools"] = self._tools(tools)
+
+            self.last_tools = kw["tools"]
+
+        elif self.last_tools and any(isinstance(m["content"], list) and any(b.get("type") in ("tool_use", "tool_result") for b in m["content"]) for m in messages):
+
+            kw["tools"] = self.last_tools
+
+            kw["tool_choice"] = {"type": "none"}
+
+        if json_mode:
+
+            kw["system"][0]["text"] += "\nRespond with a single JSON object and nothing else."
+
+        for attempt in range(5):
+
+            try:
+
+                r = self.client.messages.create(**kw)
+
+                break
+
+            except Exception as e:
+
+                if "tool_choice" in kw and "tool_choice" in str(e):
+
+                    kw.pop("tool_choice")
+
+                    continue
+
+                if attempt == 4:
+
+                    raise
+
+                time.sleep(2 ** attempt)
+
+        u = r.usage
+
+        cached = getattr(u, "cache_read_input_tokens", 0) or 0
+
+        created = getattr(u, "cache_creation_input_tokens", 0) or 0
+
+        self.usage.add((u.input_tokens or 0) + cached + created, u.output_tokens or 0, cached)
+
+        turn = Turn()
+
+        blocks = []
+
+        for b in r.content:
+
+            d = b.model_dump(exclude_none=True)
+
+            blocks.append(d)
+
+            if d.get("type") == "text":
+
+                turn.text += d.get("text", "")
+
+            elif d.get("type") == "tool_use":
+
+                turn.calls.append(FunctionCall(d["name"], dict(d.get("input") or {}), d["id"]))
+
+        return turn, {"role": "assistant", "content": blocks}
+
+
+    def user_content(self, text):
+
+        return {"role": "user", "content": [{"type": "text", "text": text}]}
+
+
+    def tool_result_content(self, name, result, call_id=None):
+
+        return {"role": "user", "content": [{"type": "tool_result", "tool_use_id": call_id or "", "content": str(result)}]}
+
+
+    def pending_call_id(self, contents, name):
+
+        answered = {b["tool_use_id"] for m in contents if m["role"] == "user" and isinstance(m["content"], list) for b in m["content"] if b.get("type") == "tool_result"}
+
+        for m in reversed(contents):
+
+            if m["role"] == "assistant":
+
+                for b in m["content"]:
+
+                    if b.get("type") == "tool_use" and b["name"] == name and b["id"] not in answered:
+
+                        return b["id"]
+
+        return None
+
+
+class OpenAIModel:
+
+    def __init__(self, model, usage=None, temperature=0.2):
+
+        import openai
+
+        load_env()
+
+        self.client = openai.OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+
+        self.model = model
+
+        self.usage = usage or Usage()
+
+        self.temperature = temperature
+
+        self.use_temperature = True
+
+
+    def _tools(self, tools):
+
+        return [{"type": "function", "function": {"name": d["name"], "description": d["description"], "parameters": d["parameters"]}} for d in tools]
+
+
+    def chat(self, system, contents, tools=None, json_mode=False):
+
+        messages = [{"role": "system", "content": system}] + list(contents)
+
+        kw = dict(model=self.model, messages=messages)
+
+        if self.use_temperature:
+
+            kw["temperature"] = self.temperature
+
+        if tools:
+
+            kw["tools"] = self._tools(tools)
+
+            kw["parallel_tool_calls"] = False
+
+        if json_mode:
+
+            kw["response_format"] = {"type": "json_object"}
+
+        for attempt in range(5):
+
+            try:
+
+                r = self.client.chat.completions.create(**kw)
+
+                break
+
+            except Exception as e:
+
+                msg = str(e)
+
+                if "temperature" in msg and self.use_temperature:
+
+                    self.use_temperature = False
+
+                    kw.pop("temperature", None)
+
+                    continue
+
+                if "parallel_tool_calls" in msg and "parallel_tool_calls" in kw:
+
+                    kw.pop("parallel_tool_calls")
+
+                    continue
+
+                if attempt == 4:
+
+                    raise
+
+                time.sleep(2 ** attempt)
+
+        u = r.usage
+
+        cached = 0
+
+        details = getattr(u, "prompt_tokens_details", None)
+
+        if details is not None:
+
+            cached = getattr(details, "cached_tokens", 0) or 0
+
+        self.usage.add(u.prompt_tokens or 0, u.completion_tokens or 0, cached)
+
+        m = r.choices[0].message
+
+        turn = Turn(text=m.content or "")
+
+        raw = {"role": "assistant", "content": m.content or ""}
+
+        if m.tool_calls:
+
+            raw["tool_calls"] = []
+
+            for tc in m.tool_calls:
+
+                try:
+
+                    args = json.loads(tc.function.arguments or "{}")
+
+                except Exception:
+
+                    args = {}
+
+                turn.calls.append(FunctionCall(tc.function.name, args, tc.id))
+
+                raw["tool_calls"].append({"id": tc.id, "type": "function", "function": {"name": tc.function.name, "arguments": tc.function.arguments or "{}"}})
+
+        return turn, raw
+
+
+    def user_content(self, text):
+
+        return {"role": "user", "content": text}
+
+
+    def tool_result_content(self, name, result, call_id=None):
+
+        return {"role": "tool", "tool_call_id": call_id or "", "content": str(result)}
+
+
+    def pending_call_id(self, contents, name):
+
+        answered = {m.get("tool_call_id") for m in contents if m.get("role") == "tool"}
+
+        for m in reversed(contents):
+
+            if m.get("role") == "assistant" and m.get("tool_calls"):
+
+                for tc in m["tool_calls"]:
+
+                    if tc["function"]["name"] == name and tc["id"] not in answered:
+
+                        return tc["id"]
+
+        return None
+
+
+def make_model(name, usage=None, stub=False):
+
+    if stub:
+
+        return StubModel(usage=usage)
+
+    low = name.lower()
+
+    if low.startswith("claude"):
+
+        return AnthropicModel(name, usage=usage)
+
+    if low.startswith(("gpt", "o1", "o3", "o4", "chatgpt")):
+
+        return OpenAIModel(name, usage=usage)
+
+    return GeminiModel(name, usage=usage)
