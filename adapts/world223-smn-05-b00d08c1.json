@@ -1,0 +1,16 @@
+{
+ "task": "world223-smn-05-b00d08c1",
+ "domain": "Investment Banking",
+ "removed": [
+  "pay down debt to bring the debt to equity ratio down to 2.60x"
+ ],
+ "packet": "You are the client who sent this request. Your assumption: the proceeds from the sale of Solventum are used to pay down debt only as far as needed to bring 3M's debt to equity ratio down to 2.60x from its baseline. The remaining proceeds are used to repurchase shares.",
+ "scripted_reply": "Use the proceeds to pay down debt until the debt to equity ratio comes down to 2.60x; the remaining proceeds go to share repurchases.",
+ "linked_criteria": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "instruction_adapted": "REDACTED: derived from the gated task instruction; rebuild with adapts/build.py once you hold the dataset"
+}

@@ -1,0 +1,17 @@
+{
+ "task": "world-221-hy-05-fa5120b0",
+ "domain": "Investment Banking",
+ "removed": [
+  "set the merger model to the 9M TTM 2025 account"
+ ],
+ "packet": "You are the client who sent this request. Your instruction: set the merger model to the 9M TTM 2025 account (the Financial Account input in the merger analysis), and take every figure on that basis.",
+ "scripted_reply": "Set the merger model to the 9M TTM 2025 account.",
+ "linked_criteria": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "instruction_adapted": "REDACTED: derived from the gated task instruction; rebuild with adapts/build.py once you hold the dataset"
+}

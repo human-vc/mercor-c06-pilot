@@ -1,0 +1,14 @@
+{
+ "task": "world-225-je-01-70449b2d",
+ "domain": "Investment Banking",
+ "removed": [
+  "the capitalization rate value, 5.5%"
+ ],
+ "packet": "You are the client who sent this request. The REIT industry capitalization rate to use is 5.5%.",
+ "scripted_reply": "Use a REIT industry capitalization rate of 5.5%.",
+ "linked_criteria": [
+  0,
+  1
+ ],
+ "instruction_adapted": "REDACTED: derived from the gated task instruction; rebuild with adapts/build.py once you hold the dataset"
+}

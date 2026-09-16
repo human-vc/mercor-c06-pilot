@@ -1,0 +1,13 @@
+{
+ "task": "lawworld417-ne-06-7d454c39",
+ "domain": "Law",
+ "removed": [
+  "the group health plan terms: coverage runs through the last day of the month in which employment ends; eligibility changes only through a formal plan amendment"
+ ],
+ "packet": "You are the in-house lawyer who sent this request. Facts you know about Streams' group health plan: an active employee's coverage runs through the last day of the month in which employment ends, and any change to plan eligibility takes effect only through a formal plan amendment adopted under the plan's amendment procedure.",
+ "scripted_reply": "Streams' group health plan provides that an active employee's coverage runs through the last day of the month in which employment ends, and any change to plan eligibility takes effect only through a formal plan amendment adopted under the plan's amendment procedure.",
+ "linked_criteria": [
+  4
+ ],
+ "instruction_adapted": "REDACTED: derived from the gated task instruction; rebuild with adapts/build.py once you hold the dataset"
+}

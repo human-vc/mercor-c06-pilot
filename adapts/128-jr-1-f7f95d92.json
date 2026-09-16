@@ -1,0 +1,18 @@
+{
+ "task": "128-jr-1-f7f95d92",
+ "domain": "Management Consulting",
+ "removed": [
+  "use the worst case scenario when translating the updated framework to a quantitative value"
+ ],
+ "packet": "You are the engagement lead who sent this request. The revised Business Unit Assessment Framework (v2) gives qualitative ranges for several criteria (for example 'Low to very low'), so more than one ideal rating is possible for those criteria. Your instruction: when translating the updated framework to a quantitative ideal rating, use the worst case option for each criterion. There are no changes to the formulas or calculations.",
+ "scripted_reply": "Use the worst case scenario when translating the updated framework to a quantitative value. There are no changes to the formulas or calculations.",
+ "linked_criteria": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "instruction_adapted": "REDACTED: derived from the gated task instruction; rebuild with adapts/build.py once you hold the dataset"
+}

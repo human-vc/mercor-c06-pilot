@@ -1,0 +1,119 @@
+task,variant,arm,status,steps,contacted,message,mean_score,linked_met,restore_ok
+128-jr-1-f7f95d92,complete,base,done,42,False,,1.0,6,
+128-jr-1-f7f95d92,adapted,base,done,68,False,,0.5,3,
+world-129-cy-task-3-2bcdc3db,complete,base,contacted,78,True,"Could you please clarify the following regarding the discount and variance calculations:
+
+1. Which Company Size ranges in the revenue data by segment correspond to the Business and Growth tiers (e.g., Mid-Market (51–250) for Business and Upper Mid-Market (251–500) for Growth)?
+2. For the midpoint user count, should we use the exact midpoints (150.5 for 51–250, 375.5 for 251–500) or rounded/span midpoints (150 and 375)?
+3. For the actual price per customer in the revenue data, should we use the weighted ARPU (Total ARR / Total Customers) or the unweighted mean ARPU?
+4. Is the % variance relative to policy threshold calculated as relative variance ((Discount - Threshold) / Threshold * 100) or percentage point difference (Discount - Threshold)?",,,
+world-129-cy-task-3-2bcdc3db,complete,scripted#0,done,6,True,"Could you please clarify the following regarding the discount and variance calculations:
+
+1. Which Company Size ranges in the revenue data by segment correspond to the Business and Growth tiers (e.g., Mid-Market (51–250) for Business and Upper Mid-Market (251–500) for Growth)?
+2. For the midpoint user count, should we use the exact midpoints (150.5 for 51–250, 375.5 for 251–500) or rounded/span midpoints (150 and 375)?
+3. For the actual price per customer in the revenue data, should we use the weighted ARPU (Total ARR / Total Customers) or the unweighted mean ARPU?
+4. Is the % variance relative to policy threshold calculated as relative variance ((Discount - Threshold) / Threshold * 100) or percentage point difference (Discount - Threshold)?",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simB_helpful#0,done,10,True,"Could you please clarify the following regarding the discount and variance calculations:
+
+1. Which Company Size ranges in the revenue data by segment correspond to the Business and Growth tiers (e.g., Mid-Market (51–250) for Business and Upper Mid-Market (251–500) for Growth)?
+2. For the midpoint user count, should we use the exact midpoints (150.5 for 51–250, 375.5 for 251–500) or rounded/span midpoints (150 and 375)?
+3. For the actual price per customer in the revenue data, should we use the weighted ARPU (Total ARR / Total Customers) or the unweighted mean ARPU?
+4. Is the % variance relative to policy threshold calculated as relative variance ((Discount - Threshold) / Threshold * 100) or percentage point difference (Discount - Threshold)?",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simA_minimal#1,done,10,True,"Could you please clarify the following regarding the discount and variance calculations:
+
+1. Which Company Size ranges in the revenue data by segment correspond to the Business and Growth tiers (e.g., Mid-Market (51–250) for Business and Upper Mid-Market (251–500) for Growth)?
+2. For the midpoint user count, should we use the exact midpoints (150.5 for 51–250, 375.5 for 251–500) or rounded/span midpoints (150 and 375)?
+3. For the actual price per customer in the revenue data, should we use the weighted ARPU (Total ARR / Total Customers) or the unweighted mean ARPU?
+4. Is the % variance relative to policy threshold calculated as relative variance ((Discount - Threshold) / Threshold * 100) or percentage point difference (Discount - Threshold)?",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simA_minimal#0,done,9,True,"Could you please clarify the following regarding the discount and variance calculations:
+
+1. Which Company Size ranges in the revenue data by segment correspond to the Business and Growth tiers (e.g., Mid-Market (51–250) for Business and Upper Mid-Market (251–500) for Growth)?
+2. For the midpoint user count, should we use the exact midpoints (150.5 for 51–250, 375.5 for 251–500) or rounded/span midpoints (150 and 375)?
+3. For the actual price per customer in the revenue data, should we use the weighted ARPU (Total ARR / Total Customers) or the unweighted mean ARPU?
+4. Is the % variance relative to policy threshold calculated as relative variance ((Discount - Threshold) / Threshold * 100) or percentage point difference (Discount - Threshold)?",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,scripted#1,done,4,True,"Could you please clarify the following regarding the discount and variance calculations:
+
+1. Which Company Size ranges in the revenue data by segment correspond to the Business and Growth tiers (e.g., Mid-Market (51–250) for Business and Upper Mid-Market (251–500) for Growth)?
+2. For the midpoint user count, should we use the exact midpoints (150.5 for 51–250, 375.5 for 251–500) or rounded/span midpoints (150 and 375)?
+3. For the actual price per customer in the revenue data, should we use the weighted ARPU (Total ARR / Total Customers) or the unweighted mean ARPU?
+4. Is the % variance relative to policy threshold calculated as relative variance ((Discount - Threshold) / Threshold * 100) or percentage point difference (Discount - Threshold)?",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simB_helpful#1,done,11,True,"Could you please clarify the following regarding the discount and variance calculations:
+
+1. Which Company Size ranges in the revenue data by segment correspond to the Business and Growth tiers (e.g., Mid-Market (51–250) for Business and Upper Mid-Market (251–500) for Growth)?
+2. For the midpoint user count, should we use the exact midpoints (150.5 for 51–250, 375.5 for 251–500) or rounded/span midpoints (150 and 375)?
+3. For the actual price per customer in the revenue data, should we use the weighted ARPU (Total ARR / Total Customers) or the unweighted mean ARPU?
+4. Is the % variance relative to policy threshold calculated as relative variance ((Discount - Threshold) / Threshold * 100) or percentage point difference (Discount - Threshold)?",0.0,0,True
+world-129-cy-task-3-2bcdc3db,adapted,base,done,42,False,,0.0,0,
+world-134-rg-04-4498da8f,complete,base,done,68,False,,0.0,0,
+world-134-rg-04-4498da8f,adapted,base,contacted,71,True,"Could you please clarify three assumptions for the analysis:
+1. When TrainIQ loses market share, is CompliSure assumed to capture the entirety of TrainIQ's lost share, or is the lost share redistributed (e.g., pro-rata) across remaining competitors?
+2. Do the research firm estimates (Firm A: 7%, Firm B: 12%, Firm C: 18%) represent a relative percentage loss of TrainIQ's market share (i.e., TrainIQ's share is reduced by 7%/12%/18% of its initial share) or an absolute percentage point loss (i.e., TrainIQ's market share drops by 7/12/18 percentage points)?
+3. Which file should be used as the latest version of the 5-year forecast for CompliSure's 2025 base-case outlook: Management_Forecast_v8.xlsx / v7b.xlsx (with 2025 base revenue of $49.71M and 11.75% share) or 5yr_forecast_v5.xlsx (with 2025 base revenue of $41.25M and 9.75% share)?",,,
+world-134-rg-04-4498da8f,adapted,scripted#0,done,4,True,"Could you please clarify three assumptions for the analysis:
+1. When TrainIQ loses market share, is CompliSure assumed to capture the entirety of TrainIQ's lost share, or is the lost share redistributed (e.g., pro-rata) across remaining competitors?
+2. Do the research firm estimates (Firm A: 7%, Firm B: 12%, Firm C: 18%) represent a relative percentage loss of TrainIQ's market share (i.e., TrainIQ's share is reduced by 7%/12%/18% of its initial share) or an absolute percentage point loss (i.e., TrainIQ's market share drops by 7/12/18 percentage points)?
+3. Which file should be used as the latest version of the 5-year forecast for CompliSure's 2025 base-case outlook: Management_Forecast_v8.xlsx / v7b.xlsx (with 2025 base revenue of $49.71M and 11.75% share) or 5yr_forecast_v5.xlsx (with 2025 base revenue of $41.25M and 9.75% share)?",1.0,6,True
+world-134-rg-04-4498da8f,adapted,simA_minimal#0,done,3,True,"Could you please clarify three assumptions for the analysis:
+1. When TrainIQ loses market share, is CompliSure assumed to capture the entirety of TrainIQ's lost share, or is the lost share redistributed (e.g., pro-rata) across remaining competitors?
+2. Do the research firm estimates (Firm A: 7%, Firm B: 12%, Firm C: 18%) represent a relative percentage loss of TrainIQ's market share (i.e., TrainIQ's share is reduced by 7%/12%/18% of its initial share) or an absolute percentage point loss (i.e., TrainIQ's market share drops by 7/12/18 percentage points)?
+3. Which file should be used as the latest version of the 5-year forecast for CompliSure's 2025 base-case outlook: Management_Forecast_v8.xlsx / v7b.xlsx (with 2025 base revenue of $49.71M and 11.75% share) or 5yr_forecast_v5.xlsx (with 2025 base revenue of $41.25M and 9.75% share)?",1.0,6,True
+world-134-rg-04-4498da8f,adapted,simA_minimal#1,done,2,True,"Could you please clarify three assumptions for the analysis:
+1. When TrainIQ loses market share, is CompliSure assumed to capture the entirety of TrainIQ's lost share, or is the lost share redistributed (e.g., pro-rata) across remaining competitors?
+2. Do the research firm estimates (Firm A: 7%, Firm B: 12%, Firm C: 18%) represent a relative percentage loss of TrainIQ's market share (i.e., TrainIQ's share is reduced by 7%/12%/18% of its initial share) or an absolute percentage point loss (i.e., TrainIQ's market share drops by 7/12/18 percentage points)?
+3. Which file should be used as the latest version of the 5-year forecast for CompliSure's 2025 base-case outlook: Management_Forecast_v8.xlsx / v7b.xlsx (with 2025 base revenue of $49.71M and 11.75% share) or 5yr_forecast_v5.xlsx (with 2025 base revenue of $41.25M and 9.75% share)?",1.0,6,True
+world-134-rg-04-4498da8f,adapted,scripted#1,done,9,True,"Could you please clarify three assumptions for the analysis:
+1. When TrainIQ loses market share, is CompliSure assumed to capture the entirety of TrainIQ's lost share, or is the lost share redistributed (e.g., pro-rata) across remaining competitors?
+2. Do the research firm estimates (Firm A: 7%, Firm B: 12%, Firm C: 18%) represent a relative percentage loss of TrainIQ's market share (i.e., TrainIQ's share is reduced by 7%/12%/18% of its initial share) or an absolute percentage point loss (i.e., TrainIQ's market share drops by 7/12/18 percentage points)?
+3. Which file should be used as the latest version of the 5-year forecast for CompliSure's 2025 base-case outlook: Management_Forecast_v8.xlsx / v7b.xlsx (with 2025 base revenue of $49.71M and 11.75% share) or 5yr_forecast_v5.xlsx (with 2025 base revenue of $41.25M and 9.75% share)?",1.0,6,True
+world-134-rg-04-4498da8f,adapted,simB_helpful#0,done,3,True,"Could you please clarify three assumptions for the analysis:
+1. When TrainIQ loses market share, is CompliSure assumed to capture the entirety of TrainIQ's lost share, or is the lost share redistributed (e.g., pro-rata) across remaining competitors?
+2. Do the research firm estimates (Firm A: 7%, Firm B: 12%, Firm C: 18%) represent a relative percentage loss of TrainIQ's market share (i.e., TrainIQ's share is reduced by 7%/12%/18% of its initial share) or an absolute percentage point loss (i.e., TrainIQ's market share drops by 7/12/18 percentage points)?
+3. Which file should be used as the latest version of the 5-year forecast for CompliSure's 2025 base-case outlook: Management_Forecast_v8.xlsx / v7b.xlsx (with 2025 base revenue of $49.71M and 11.75% share) or 5yr_forecast_v5.xlsx (with 2025 base revenue of $41.25M and 9.75% share)?",1.0,6,True
+world-134-rg-04-4498da8f,adapted,simB_helpful#1,done,3,True,"Could you please clarify three assumptions for the analysis:
+1. When TrainIQ loses market share, is CompliSure assumed to capture the entirety of TrainIQ's lost share, or is the lost share redistributed (e.g., pro-rata) across remaining competitors?
+2. Do the research firm estimates (Firm A: 7%, Firm B: 12%, Firm C: 18%) represent a relative percentage loss of TrainIQ's market share (i.e., TrainIQ's share is reduced by 7%/12%/18% of its initial share) or an absolute percentage point loss (i.e., TrainIQ's market share drops by 7/12/18 percentage points)?
+3. Which file should be used as the latest version of the 5-year forecast for CompliSure's 2025 base-case outlook: Management_Forecast_v8.xlsx / v7b.xlsx (with 2025 base revenue of $49.71M and 11.75% share) or 5yr_forecast_v5.xlsx (with 2025 base revenue of $41.25M and 9.75% share)?",1.0,6,True
+lawworld433-anb-01-5d12cf8d,complete,base,done,22,False,,1.0,2,
+lawworld433-anb-01-5d12cf8d,adapted,base,done,25,False,,0.3333333333333333,0,
+lawworld417-ne-06-7d454c39,complete,base,done,18,False,,1.0,1,
+lawworld417-ne-06-7d454c39,adapted,base,done,22,False,,0.8333333333333334,1,
+world223-smn-05-b00d08c1,complete,base,done,27,False,,0.25,1,
+world223-smn-05-b00d08c1,adapted,base,contacted,33,True,"Could you please clarify the following points regarding the assumptions for the calculations:
+
+1. Proceeds Allocation & Debt Paydown: How should the debt-to-equity ratio be applied to determine the portion of Solventum proceeds used to pay down debt? Specifically, should proceeds be split proportionally based on the capital structure weights (i.e., Debt Paydown = Proceeds × [Debt / (Debt + Equity)]), and should the 1% transaction fees ($26.30M) be deducted from total proceeds before or after allocating to debt paydown?
+2. Equity Value: From the 3Q 2025 10-Q balance sheet, should ""Total equity"" ($4,675M) or ""Total 3M Company shareholders’ equity"" ($4,628M) be used for the Debt-to-Equity ratio?
+3. Repurchase Price: Is the share buyback executed at the dropped market price of $152.53 (8% drop from $165.79), or does the 15% fixed price tender offer premium from the model apply (i.e., $152.53 × 1.15 = $175.41)?",,,
+world223-smn-05-b00d08c1,adapted,scripted#1,done,11,True,"Could you please clarify the following points regarding the assumptions for the calculations:
+
+1. Proceeds Allocation & Debt Paydown: How should the debt-to-equity ratio be applied to determine the portion of Solventum proceeds used to pay down debt? Specifically, should proceeds be split proportionally based on the capital structure weights (i.e., Debt Paydown = Proceeds × [Debt / (Debt + Equity)]), and should the 1% transaction fees ($26.30M) be deducted from total proceeds before or after allocating to debt paydown?
+2. Equity Value: From the 3Q 2025 10-Q balance sheet, should ""Total equity"" ($4,675M) or ""Total 3M Company shareholders’ equity"" ($4,628M) be used for the Debt-to-Equity ratio?
+3. Repurchase Price: Is the share buyback executed at the dropped market price of $152.53 (8% drop from $165.79), or does the 15% fixed price tender offer premium from the model apply (i.e., $152.53 × 1.15 = $175.41)?",0.75,3,True
+world223-smn-05-b00d08c1,adapted,simB_helpful#1,done,5,True,"Could you please clarify the following points regarding the assumptions for the calculations:
+
+1. Proceeds Allocation & Debt Paydown: How should the debt-to-equity ratio be applied to determine the portion of Solventum proceeds used to pay down debt? Specifically, should proceeds be split proportionally based on the capital structure weights (i.e., Debt Paydown = Proceeds × [Debt / (Debt + Equity)]), and should the 1% transaction fees ($26.30M) be deducted from total proceeds before or after allocating to debt paydown?
+2. Equity Value: From the 3Q 2025 10-Q balance sheet, should ""Total equity"" ($4,675M) or ""Total 3M Company shareholders’ equity"" ($4,628M) be used for the Debt-to-Equity ratio?
+3. Repurchase Price: Is the share buyback executed at the dropped market price of $152.53 (8% drop from $165.79), or does the 15% fixed price tender offer premium from the model apply (i.e., $152.53 × 1.15 = $175.41)?",0.0,0,True
+world223-smn-05-b00d08c1,adapted,simA_minimal#0,done,6,True,"Could you please clarify the following points regarding the assumptions for the calculations:
+
+1. Proceeds Allocation & Debt Paydown: How should the debt-to-equity ratio be applied to determine the portion of Solventum proceeds used to pay down debt? Specifically, should proceeds be split proportionally based on the capital structure weights (i.e., Debt Paydown = Proceeds × [Debt / (Debt + Equity)]), and should the 1% transaction fees ($26.30M) be deducted from total proceeds before or after allocating to debt paydown?
+2. Equity Value: From the 3Q 2025 10-Q balance sheet, should ""Total equity"" ($4,675M) or ""Total 3M Company shareholders’ equity"" ($4,628M) be used for the Debt-to-Equity ratio?
+3. Repurchase Price: Is the share buyback executed at the dropped market price of $152.53 (8% drop from $165.79), or does the 15% fixed price tender offer premium from the model apply (i.e., $152.53 × 1.15 = $175.41)?",1.0,4,True
+world223-smn-05-b00d08c1,adapted,simB_helpful#0,done,4,True,"Could you please clarify the following points regarding the assumptions for the calculations:
+
+1. Proceeds Allocation & Debt Paydown: How should the debt-to-equity ratio be applied to determine the portion of Solventum proceeds used to pay down debt? Specifically, should proceeds be split proportionally based on the capital structure weights (i.e., Debt Paydown = Proceeds × [Debt / (Debt + Equity)]), and should the 1% transaction fees ($26.30M) be deducted from total proceeds before or after allocating to debt paydown?
+2. Equity Value: From the 3Q 2025 10-Q balance sheet, should ""Total equity"" ($4,675M) or ""Total 3M Company shareholders’ equity"" ($4,628M) be used for the Debt-to-Equity ratio?
+3. Repurchase Price: Is the share buyback executed at the dropped market price of $152.53 (8% drop from $165.79), or does the 15% fixed price tender offer premium from the model apply (i.e., $152.53 × 1.15 = $175.41)?",0.5,2,True
+world223-smn-05-b00d08c1,adapted,simA_minimal#1,done,5,True,"Could you please clarify the following points regarding the assumptions for the calculations:
+
+1. Proceeds Allocation & Debt Paydown: How should the debt-to-equity ratio be applied to determine the portion of Solventum proceeds used to pay down debt? Specifically, should proceeds be split proportionally based on the capital structure weights (i.e., Debt Paydown = Proceeds × [Debt / (Debt + Equity)]), and should the 1% transaction fees ($26.30M) be deducted from total proceeds before or after allocating to debt paydown?
+2. Equity Value: From the 3Q 2025 10-Q balance sheet, should ""Total equity"" ($4,675M) or ""Total 3M Company shareholders’ equity"" ($4,628M) be used for the Debt-to-Equity ratio?
+3. Repurchase Price: Is the share buyback executed at the dropped market price of $152.53 (8% drop from $165.79), or does the 15% fixed price tender offer premium from the model apply (i.e., $152.53 × 1.15 = $175.41)?",0.0,0,True
+world223-smn-05-b00d08c1,adapted,scripted#0,done,7,True,"Could you please clarify the following points regarding the assumptions for the calculations:
+
+1. Proceeds Allocation & Debt Paydown: How should the debt-to-equity ratio be applied to determine the portion of Solventum proceeds used to pay down debt? Specifically, should proceeds be split proportionally based on the capital structure weights (i.e., Debt Paydown = Proceeds × [Debt / (Debt + Equity)]), and should the 1% transaction fees ($26.30M) be deducted from total proceeds before or after allocating to debt paydown?
+2. Equity Value: From the 3Q 2025 10-Q balance sheet, should ""Total equity"" ($4,675M) or ""Total 3M Company shareholders’ equity"" ($4,628M) be used for the Debt-to-Equity ratio?
+3. Repurchase Price: Is the share buyback executed at the dropped market price of $152.53 (8% drop from $165.79), or does the 15% fixed price tender offer premium from the model apply (i.e., $152.53 × 1.15 = $175.41)?",0.0,0,True
+world-225-je-01-70449b2d,complete,base,done,45,False,,1.0,2,
+world-225-je-01-70449b2d,adapted,base,done,39,False,,0.0,0,
+world-221-hy-05-fa5120b0,complete,base,done_forced,80,False,,0.4,2,
+world-221-hy-05-fa5120b0,adapted,base,done,55,False,,0.0,0,

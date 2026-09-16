@@ -1,0 +1,37 @@
+{
+ "mean_score": 0.4,
+ "n_unresolved": 0,
+ "criteria": [
+  {
+   "id": "ver_2c701bd6f9a44244a2b145cb3b5f2b28",
+   "linked": true,
+   "met": true,
+   "resolved": true
+  },
+  {
+   "id": "ver_b2e0ae93bce048e69fd41204eced7bee",
+   "linked": true,
+   "met": true,
+   "resolved": true
+  },
+  {
+   "id": "ver_794c5ca23d2445a4b847eb0fe892faed",
+   "linked": true,
+   "met": false,
+   "resolved": true
+  },
+  {
+   "id": "ver_3bdcaf5e0be84d7c8a714eb4cd2aeaf2",
+   "linked": true,
+   "met": false,
+   "resolved": true
+  },
+  {
+   "id": "ver_4cb67399e0e440f989fd54aa97ec7553",
+   "linked": true,
+   "met": false,
+   "resolved": true
+  }
+ ],
+ "note": "judge rationales removed because they quote the gated rubric text"
+}

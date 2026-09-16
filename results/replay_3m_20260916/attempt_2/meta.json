@@ -1,0 +1,4 @@
+{
+ "message": "To ensure the calculations exactly align with your expectations, could you please clarify three brief points regarding the model assumptions:\n\n1. Debt Paydown Calculation: Is the debt paydown calculated by allocating the Solventum sale proceeds according to 3M's capital structure proportions, i.e., Debt Paydown = Proceeds \u00d7 [Debt / (Debt + Equity)], and should \"3M Total Equity\" be taken as Total 3M Company shareholders\u2019 equity ($4,628M) or Total equity ($4,675M)?\n2. Transaction Fees: Should the 1% transaction fee ($26.30M) from the model be deducted from the Solventum proceeds before allocating funds to debt paydown and share repurchase, or are gross proceeds ($2,629.87M) fully used?\n3. Repurchase Price: Does the 15% tender offer premium from the model still apply to the repurchase price (i.e., $152.53 \u00d7 1.15 = $175.41), or are shares repurchased directly at the market price after the 8% drop ($152.53)?",
+ "variant": "adapted"
+}

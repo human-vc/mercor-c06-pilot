@@ -1,0 +1,18 @@
+{
+ "task": "world-134-rg-04-4498da8f",
+ "domain": "Management Consulting",
+ "removed": [
+  "any market share lost by TrainIQ is fully captured by CompliSure, with no impact on other competitors"
+ ],
+ "packet": "You commissioned this analysis. Your assumption: any market share lost by TrainIQ is fully captured by CompliSure, with no impact on other competitors. The overall 2025 market size does not change.",
+ "scripted_reply": "Assume that any market share lost by TrainIQ is fully captured by CompliSure, with no impact on other competitors.",
+ "linked_criteria": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "instruction_adapted": "REDACTED: derived from the gated task instruction; rebuild with adapts/build.py once you hold the dataset"
+}

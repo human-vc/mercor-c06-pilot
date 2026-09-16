@@ -1,0 +1,16 @@
+{
+ "task": "world-129-cy-task-3-2bcdc3db",
+ "domain": "Management Consulting",
+ "removed": [
+  "use the midpoint of the Company Size range as the user count"
+ ],
+ "packet": "You commissioned this analysis. The revenue-by-segment data gives Company Size as employee ranges (10-50, 51-250, 251-500). Your instruction: use the midpoint of the Company Size range as the user count for each segment row.",
+ "scripted_reply": "Use the midpoint of the Company Size range as the user count.",
+ "linked_criteria": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "instruction_adapted": "REDACTED: derived from the gated task instruction; rebuild with adapts/build.py once you hold the dataset"
+}

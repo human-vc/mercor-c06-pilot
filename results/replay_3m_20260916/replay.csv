@@ -1,0 +1,9 @@
+attempt,contacted,arm,score,linked_met,steps,restore_ok,n_calls,n_python,n_read,n_write
+0,True,uninterrupted,0.0,0,5,,4,4,0,0
+0,True,restored,0.0,0,8,True,7,7,0,0
+1,True,uninterrupted,0.0,0,5,,4,4,0,0
+1,True,restored,0.0,0,4,True,3,3,0,0
+2,True,uninterrupted,0.5,2,5,,4,4,0,0
+2,True,restored,0.5,2,5,True,4,4,0,0
+3,True,uninterrupted,0.0,0,3,,2,2,0,0
+3,True,restored,0.0,0,7,True,6,6,0,0

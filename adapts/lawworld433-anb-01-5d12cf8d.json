@@ -1,0 +1,14 @@
+{
+ "task": "lawworld433-anb-01-5d12cf8d",
+ "domain": "Law",
+ "removed": [
+  "each Complaint was served on the defendant ten days after it was filed"
+ ],
+ "packet": "You are the Assistant General Counsel who sent this request. Fact you know: each Complaint was served on the defendant ten days after it was filed. The complaints themselves do not state service dates.",
+ "scripted_reply": "Each Complaint was served on the defendant ten days after it was filed.",
+ "linked_criteria": [
+  0,
+  2
+ ],
+ "instruction_adapted": "REDACTED: derived from the gated task instruction; rebuild with adapts/build.py once you hold the dataset"
+}

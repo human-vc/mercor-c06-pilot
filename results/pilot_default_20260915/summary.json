@@ -1,0 +1,9 @@
+{
+ "model": "gemini-3.8-flash",
+ "judge": "gemini-3.8-flash",
+ "calls": 832,
+ "prompt_tokens": 33937407,
+ "cached_tokens": 28728361,
+ "output_tokens": 216435,
+ "rows": 16
+}

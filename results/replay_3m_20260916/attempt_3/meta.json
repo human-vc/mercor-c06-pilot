@@ -1,0 +1,4 @@
+{
+ "message": "Could you please clarify the following three points for the calculations:\n1. Debt Paydown Allocation: How is the debt-to-equity ratio used to determine the portion of proceeds used to pay down debt (e.g., is proceeds allocated to debt paydown using the weight Debt / (Debt + Total Equity), where Total Equity is $4,675M or $4,628M)?\n2. Proceeds Base: Are the proceeds allocated between debt paydown and share repurchase the net proceeds after fees ($2,603.57M) or gross proceeds ($2,629.87M)?\n3. Buyback Price: Does the share buyback occur at the dropped share price of $152.53 (i.e. $165.79 * (1 - 0.08) with no premium), or does the 15% tender offer premium from the model still apply ($175.41)?",
+ "variant": "adapted"
+}

@@ -1,0 +1,20 @@
+{
+ "task": "world223-smn-05-b00d08c1",
+ "model": "gemini-3.8-flash",
+ "ask_prompt": true,
+ "attempts": 4,
+ "contacts": 4,
+ "pairs": 4,
+ "mean_score_uninterrupted": 0.125,
+ "mean_score_restored": 0.125,
+ "paired_diffs_restored_minus_uninterrupted": [
+  0,
+  0,
+  0.0,
+  0
+ ],
+ "calls": 215,
+ "prompt_tokens": 7819579,
+ "cached_tokens": 6190639,
+ "output_tokens": 73296
+}
