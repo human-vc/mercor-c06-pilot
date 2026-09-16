@@ -1,1 +1,0 @@
-The two client questions used for the human-reply workflow are stored locally with the gated task instruction for context and are not redistributed. The questions themselves (agent output) appear in results/*/<task>/meta.json.
