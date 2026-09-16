@@ -46,7 +46,3 @@ ASK=1 REPEATS=2 OUT=runs/pilot_ask ./run_pilot.sh   # directive prompt
 ./.venv/bin/python -m c06.regrade runs/pilot/<stamp> --judge gemini-3.1-pro-preview
 ./.venv/bin/python -m c06.replay data/apex-agents-v1.1/tasks/<task> --ask-prompt --contacts 4
 ```
-
-## Limitations
-
-Lite harness (file tools and sandboxed Python rather than Mercor's app servers and Docker world); one model, one run per cell; run-time judge is a Flash model; both judges credit alternative-scenario values inconsistently; two of eight adaptations were poor (one guessable from context, one task too hard for the model in both versions); simulator wording leaked the word "packet" during these runs; the directive prompt's contact rate is a wording manipulation, not the default rate. The first real run was voided after the agent's Python left the task folder and read the answer key; the sandbox was added and every reported run postdates it.
