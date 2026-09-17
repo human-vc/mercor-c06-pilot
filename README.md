@@ -11,7 +11,7 @@ Pilot for a clarification track on APEX-Agents: one requirement is withheld from
 
 Under the permissive prompt, average rubric scores on complete versus adapted tasks were 0.83 versus 0.42 for Gemini 3.8 Flash, 0.70 versus 0.54 for Fable 5.1, and 0.51 versus 0.33 for Qwen 3.8 Flash over the seven pairs with graded base runs, since one of its complete runs ended in contact (Flash judge; a second judge, Gemini 3.1 Pro, is recorded alongside). At one saved Qwen state, a simulator that withheld an unasked-for requirement produced scores of 0.5 in both continuations; replies supplying that requirement produced 1.0 in all four continuations.
 
-`results/` holds, per run, the results table, the agent's questions, the simulator replies, per-cell grades under both judges (rationales removed because they quote rubric text), and final answers:
+`METHODS.md` has the design, per-task results for every run, the replay check, the practitioner reply, precision estimates from pilot variance, and the grading rules to pre-register. `results/` holds, per run, the results table, the agent's questions, the simulator replies, per-cell grades under both judges (rationales removed because they quote rubric text), and final answers:
 
 | Folder | Model | Prompt |
 |---|---|---|
