@@ -22,6 +22,8 @@ Under the permissive prompt, average rubric scores on complete versus adapted ta
 | `qwen_default_20260916` | Qwen 3.8 Flash | permissive |
 | `qwen_ask_20260917` | Qwen 3.8 Flash | directive |
 
+One reply written by a finance practitioner (not the task author) was branched four times from a Gemini 3.8 Flash saved state on the 3M task: `pilot_ask_20260916/world223-smn-05-b00d08c1/adapted/practitioner_*`, with the reply text, results and grades under both judges alongside.
+
 ## Prompts and versions
 
 - Agent: `c06/agent.py` (`SYSTEM`; `ASK_PROMPT` is the directive sentence).

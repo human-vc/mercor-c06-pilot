@@ -1,0 +1,11 @@
+Hi there,
+
+To clarify your points:
+
+For the debt paydown, use the proceeds from the sale of Solventum to pay down debt only as far as needed to bring 3M's debt-to-equity ratio down to 2.60x from its baseline. All remaining proceeds after hitting that target should go toward repurchasing shares. I don't have any specific instructions on whether to deduct transaction fees before or after this allocation, so use your standard judgment there.
+
+Regarding the equity value, my original note specified using "3M Total Equity." I don't have any further guidance beyond that, so please use the figure that best aligns with that exact description.
+
+For the repurchase price, execute the buyback at the dropped market price (the 8% drop). Do not apply the 15% fixed premium.
+
+Thanks.
