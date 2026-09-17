@@ -1,0 +1,389 @@
+task,variant,arm,status,steps,contacted,message,mean_score,linked_met,restore_ok
+128-jr-1-f7f95d92,complete,base,done,14,False,,1.0,6,
+128-jr-1-f7f95d92,adapted,base,contacted,17,True,"Quick check before I lock SkyLink's numbers — the v2 files change the answer vs. the v1 deck, and one thing is ambiguous:
+
+I applied the unchanged v1 method (per-criterion score = 5 − ABS(Actual R − Ideal I), ideal I mapped from the v2 framework's worded ranges via the v1 1–5 anchors, total out of 25, highest wins). With the v2 ratings as written (Tech risk 2, Strategic alignment 5, Commercial viability 2, Capital/ops intensity 3, Feasibility of external ownership 5-scale 3), SkyLink scores: Continue 17.0 / Graduate 18.5 / Spin out 15.5 / Sell 17.0 / Discontinue 21.0 → Discontinue (this also flips the earlier ""Sell"" recommendation, and the same pattern pushes SolisOne to ""Discontinue"").
+
+If instead the v2 ratings use reversed polarity (higher = less risk / less intensity / more aligned, i.e. TRR 4, SA 1, CV 4, COI 3, FEO 3), SkyLink scores: Continue 16.0 / Graduate 17.5 / Spin out 18.5 / Sell 21.0 / Discontinue 17.0 → Sell, matching the prior recommendation.
+
+Which should I publish — (a) v2 ratings taken literally as the same 1–5 scale as v1 → Discontinue, or (b) reversed polarity → Sell? If you don't reply I'll publish (a) as the literal read, with (b) shown as a sensitivity.",,,
+128-jr-1-f7f95d92,adapted,scripted#0,done,6,True,"Quick check before I lock SkyLink's numbers — the v2 files change the answer vs. the v1 deck, and one thing is ambiguous:
+
+I applied the unchanged v1 method (per-criterion score = 5 − ABS(Actual R − Ideal I), ideal I mapped from the v2 framework's worded ranges via the v1 1–5 anchors, total out of 25, highest wins). With the v2 ratings as written (Tech risk 2, Strategic alignment 5, Commercial viability 2, Capital/ops intensity 3, Feasibility of external ownership 5-scale 3), SkyLink scores: Continue 17.0 / Graduate 18.5 / Spin out 15.5 / Sell 17.0 / Discontinue 21.0 → Discontinue (this also flips the earlier ""Sell"" recommendation, and the same pattern pushes SolisOne to ""Discontinue"").
+
+If instead the v2 ratings use reversed polarity (higher = less risk / less intensity / more aligned, i.e. TRR 4, SA 1, CV 4, COI 3, FEO 3), SkyLink scores: Continue 16.0 / Graduate 17.5 / Spin out 18.5 / Sell 21.0 / Discontinue 17.0 → Sell, matching the prior recommendation.
+
+Which should I publish — (a) v2 ratings taken literally as the same 1–5 scale as v1 → Discontinue, or (b) reversed polarity → Sell? If you don't reply I'll publish (a) as the literal read, with (b) shown as a sensitivity.",0.5,3,True
+128-jr-1-f7f95d92,adapted,simB_helpful#0,done,7,True,"Quick check before I lock SkyLink's numbers — the v2 files change the answer vs. the v1 deck, and one thing is ambiguous:
+
+I applied the unchanged v1 method (per-criterion score = 5 − ABS(Actual R − Ideal I), ideal I mapped from the v2 framework's worded ranges via the v1 1–5 anchors, total out of 25, highest wins). With the v2 ratings as written (Tech risk 2, Strategic alignment 5, Commercial viability 2, Capital/ops intensity 3, Feasibility of external ownership 5-scale 3), SkyLink scores: Continue 17.0 / Graduate 18.5 / Spin out 15.5 / Sell 17.0 / Discontinue 21.0 → Discontinue (this also flips the earlier ""Sell"" recommendation, and the same pattern pushes SolisOne to ""Discontinue"").
+
+If instead the v2 ratings use reversed polarity (higher = less risk / less intensity / more aligned, i.e. TRR 4, SA 1, CV 4, COI 3, FEO 3), SkyLink scores: Continue 16.0 / Graduate 17.5 / Spin out 18.5 / Sell 21.0 / Discontinue 17.0 → Sell, matching the prior recommendation.
+
+Which should I publish — (a) v2 ratings taken literally as the same 1–5 scale as v1 → Discontinue, or (b) reversed polarity → Sell? If you don't reply I'll publish (a) as the literal read, with (b) shown as a sensitivity.",0.16666666666666666,1,True
+128-jr-1-f7f95d92,adapted,simA_minimal#1,done,5,True,"Quick check before I lock SkyLink's numbers — the v2 files change the answer vs. the v1 deck, and one thing is ambiguous:
+
+I applied the unchanged v1 method (per-criterion score = 5 − ABS(Actual R − Ideal I), ideal I mapped from the v2 framework's worded ranges via the v1 1–5 anchors, total out of 25, highest wins). With the v2 ratings as written (Tech risk 2, Strategic alignment 5, Commercial viability 2, Capital/ops intensity 3, Feasibility of external ownership 5-scale 3), SkyLink scores: Continue 17.0 / Graduate 18.5 / Spin out 15.5 / Sell 17.0 / Discontinue 21.0 → Discontinue (this also flips the earlier ""Sell"" recommendation, and the same pattern pushes SolisOne to ""Discontinue"").
+
+If instead the v2 ratings use reversed polarity (higher = less risk / less intensity / more aligned, i.e. TRR 4, SA 1, CV 4, COI 3, FEO 3), SkyLink scores: Continue 16.0 / Graduate 17.5 / Spin out 18.5 / Sell 21.0 / Discontinue 17.0 → Sell, matching the prior recommendation.
+
+Which should I publish — (a) v2 ratings taken literally as the same 1–5 scale as v1 → Discontinue, or (b) reversed polarity → Sell? If you don't reply I'll publish (a) as the literal read, with (b) shown as a sensitivity.",0.3333333333333333,2,True
+128-jr-1-f7f95d92,adapted,simA_minimal#0,done,6,True,"Quick check before I lock SkyLink's numbers — the v2 files change the answer vs. the v1 deck, and one thing is ambiguous:
+
+I applied the unchanged v1 method (per-criterion score = 5 − ABS(Actual R − Ideal I), ideal I mapped from the v2 framework's worded ranges via the v1 1–5 anchors, total out of 25, highest wins). With the v2 ratings as written (Tech risk 2, Strategic alignment 5, Commercial viability 2, Capital/ops intensity 3, Feasibility of external ownership 5-scale 3), SkyLink scores: Continue 17.0 / Graduate 18.5 / Spin out 15.5 / Sell 17.0 / Discontinue 21.0 → Discontinue (this also flips the earlier ""Sell"" recommendation, and the same pattern pushes SolisOne to ""Discontinue"").
+
+If instead the v2 ratings use reversed polarity (higher = less risk / less intensity / more aligned, i.e. TRR 4, SA 1, CV 4, COI 3, FEO 3), SkyLink scores: Continue 16.0 / Graduate 17.5 / Spin out 18.5 / Sell 21.0 / Discontinue 17.0 → Sell, matching the prior recommendation.
+
+Which should I publish — (a) v2 ratings taken literally as the same 1–5 scale as v1 → Discontinue, or (b) reversed polarity → Sell? If you don't reply I'll publish (a) as the literal read, with (b) shown as a sensitivity.",0.6666666666666666,4,True
+128-jr-1-f7f95d92,adapted,scripted#1,done,5,True,"Quick check before I lock SkyLink's numbers — the v2 files change the answer vs. the v1 deck, and one thing is ambiguous:
+
+I applied the unchanged v1 method (per-criterion score = 5 − ABS(Actual R − Ideal I), ideal I mapped from the v2 framework's worded ranges via the v1 1–5 anchors, total out of 25, highest wins). With the v2 ratings as written (Tech risk 2, Strategic alignment 5, Commercial viability 2, Capital/ops intensity 3, Feasibility of external ownership 5-scale 3), SkyLink scores: Continue 17.0 / Graduate 18.5 / Spin out 15.5 / Sell 17.0 / Discontinue 21.0 → Discontinue (this also flips the earlier ""Sell"" recommendation, and the same pattern pushes SolisOne to ""Discontinue"").
+
+If instead the v2 ratings use reversed polarity (higher = less risk / less intensity / more aligned, i.e. TRR 4, SA 1, CV 4, COI 3, FEO 3), SkyLink scores: Continue 16.0 / Graduate 17.5 / Spin out 18.5 / Sell 21.0 / Discontinue 17.0 → Sell, matching the prior recommendation.
+
+Which should I publish — (a) v2 ratings taken literally as the same 1–5 scale as v1 → Discontinue, or (b) reversed polarity → Sell? If you don't reply I'll publish (a) as the literal read, with (b) shown as a sensitivity.",1.0,6,True
+128-jr-1-f7f95d92,adapted,simB_helpful#1,done,11,True,"Quick check before I lock SkyLink's numbers — the v2 files change the answer vs. the v1 deck, and one thing is ambiguous:
+
+I applied the unchanged v1 method (per-criterion score = 5 − ABS(Actual R − Ideal I), ideal I mapped from the v2 framework's worded ranges via the v1 1–5 anchors, total out of 25, highest wins). With the v2 ratings as written (Tech risk 2, Strategic alignment 5, Commercial viability 2, Capital/ops intensity 3, Feasibility of external ownership 5-scale 3), SkyLink scores: Continue 17.0 / Graduate 18.5 / Spin out 15.5 / Sell 17.0 / Discontinue 21.0 → Discontinue (this also flips the earlier ""Sell"" recommendation, and the same pattern pushes SolisOne to ""Discontinue"").
+
+If instead the v2 ratings use reversed polarity (higher = less risk / less intensity / more aligned, i.e. TRR 4, SA 1, CV 4, COI 3, FEO 3), SkyLink scores: Continue 16.0 / Graduate 17.5 / Spin out 18.5 / Sell 21.0 / Discontinue 17.0 → Sell, matching the prior recommendation.
+
+Which should I publish — (a) v2 ratings taken literally as the same 1–5 scale as v1 → Discontinue, or (b) reversed polarity → Sell? If you don't reply I'll publish (a) as the literal read, with (b) shown as a sensitivity.",0.3333333333333333,2,True
+world-129-cy-task-3-2bcdc3db,complete,base,contacted,29,True,"Thanks — I have everything I need except one weighting detail. Facts I've locked in: latest pricing = v4.2 (Business $32/user/mo, Growth $58/user/mo, from Brightpath_Historical_Pricing_Versions_ChangeLog); discount logs = Brightpath_Discount_Approval_Logs_v1.0 (800 rows; both copies are identical) using Final_Approved_Discount_% and the mean of Policy_Threshold_% per tier; company-size bands = Revenue_by_Segment (10–50, 51–250, 251–500 → midpoints 30 / 150.5 / 375.5).
+
+The logs have no company-size column, only Initial_List_Price, so how should the ""midpoint as user count"" weighting be applied?
+
+A) Implied users = Initial_List_Price ÷ (v4.2 price × 12) → map to the band it falls in → weight that deal's discount by the band midpoint (30/150.5/375.5). [75 of 214 Business deals imply >500 users — cap them at 375.5, or drop them?]
+B) Same, but weight each deal by its raw implied user count (no banding).
+C) No weighting: simple average discount per tier (Business 18.70%, Growth 18.57%) vs average threshold (Business 15.12%, Growth 14.69%).
+D) Something else (e.g., join the logs to the deal-transaction file's Customer_Size_Segment, or weight by ARR from Revenue_by_Segment).
+
+For reference, results are: C → Business 18.70% / +23.68%, Growth 18.57% / +26.42%; A (capped) → Business 18.60% / +22.87%, Growth 19.01% / +25.34%; B → Business 18.77% / +22.42%, Growth 19.13% / +25.48%. Also please confirm: use Final_Approved_Discount_% (not Discount_Requested_%) and variance = (avg discount − avg threshold) ÷ avg threshold.",,,
+world-129-cy-task-3-2bcdc3db,complete,scripted#0,done,4,True,"Thanks — I have everything I need except one weighting detail. Facts I've locked in: latest pricing = v4.2 (Business $32/user/mo, Growth $58/user/mo, from Brightpath_Historical_Pricing_Versions_ChangeLog); discount logs = Brightpath_Discount_Approval_Logs_v1.0 (800 rows; both copies are identical) using Final_Approved_Discount_% and the mean of Policy_Threshold_% per tier; company-size bands = Revenue_by_Segment (10–50, 51–250, 251–500 → midpoints 30 / 150.5 / 375.5).
+
+The logs have no company-size column, only Initial_List_Price, so how should the ""midpoint as user count"" weighting be applied?
+
+A) Implied users = Initial_List_Price ÷ (v4.2 price × 12) → map to the band it falls in → weight that deal's discount by the band midpoint (30/150.5/375.5). [75 of 214 Business deals imply >500 users — cap them at 375.5, or drop them?]
+B) Same, but weight each deal by its raw implied user count (no banding).
+C) No weighting: simple average discount per tier (Business 18.70%, Growth 18.57%) vs average threshold (Business 15.12%, Growth 14.69%).
+D) Something else (e.g., join the logs to the deal-transaction file's Customer_Size_Segment, or weight by ARR from Revenue_by_Segment).
+
+For reference, results are: C → Business 18.70% / +23.68%, Growth 18.57% / +26.42%; A (capped) → Business 18.60% / +22.87%, Growth 19.01% / +25.34%; B → Business 18.77% / +22.42%, Growth 19.13% / +25.48%. Also please confirm: use Final_Approved_Discount_% (not Discount_Requested_%) and variance = (avg discount − avg threshold) ÷ avg threshold.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simA_minimal#0,done,7,True,"Thanks — I have everything I need except one weighting detail. Facts I've locked in: latest pricing = v4.2 (Business $32/user/mo, Growth $58/user/mo, from Brightpath_Historical_Pricing_Versions_ChangeLog); discount logs = Brightpath_Discount_Approval_Logs_v1.0 (800 rows; both copies are identical) using Final_Approved_Discount_% and the mean of Policy_Threshold_% per tier; company-size bands = Revenue_by_Segment (10–50, 51–250, 251–500 → midpoints 30 / 150.5 / 375.5).
+
+The logs have no company-size column, only Initial_List_Price, so how should the ""midpoint as user count"" weighting be applied?
+
+A) Implied users = Initial_List_Price ÷ (v4.2 price × 12) → map to the band it falls in → weight that deal's discount by the band midpoint (30/150.5/375.5). [75 of 214 Business deals imply >500 users — cap them at 375.5, or drop them?]
+B) Same, but weight each deal by its raw implied user count (no banding).
+C) No weighting: simple average discount per tier (Business 18.70%, Growth 18.57%) vs average threshold (Business 15.12%, Growth 14.69%).
+D) Something else (e.g., join the logs to the deal-transaction file's Customer_Size_Segment, or weight by ARR from Revenue_by_Segment).
+
+For reference, results are: C → Business 18.70% / +23.68%, Growth 18.57% / +26.42%; A (capped) → Business 18.60% / +22.87%, Growth 19.01% / +25.34%; B → Business 18.77% / +22.42%, Growth 19.13% / +25.48%. Also please confirm: use Final_Approved_Discount_% (not Discount_Requested_%) and variance = (avg discount − avg threshold) ÷ avg threshold.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simA_minimal#1,done,3,True,"Thanks — I have everything I need except one weighting detail. Facts I've locked in: latest pricing = v4.2 (Business $32/user/mo, Growth $58/user/mo, from Brightpath_Historical_Pricing_Versions_ChangeLog); discount logs = Brightpath_Discount_Approval_Logs_v1.0 (800 rows; both copies are identical) using Final_Approved_Discount_% and the mean of Policy_Threshold_% per tier; company-size bands = Revenue_by_Segment (10–50, 51–250, 251–500 → midpoints 30 / 150.5 / 375.5).
+
+The logs have no company-size column, only Initial_List_Price, so how should the ""midpoint as user count"" weighting be applied?
+
+A) Implied users = Initial_List_Price ÷ (v4.2 price × 12) → map to the band it falls in → weight that deal's discount by the band midpoint (30/150.5/375.5). [75 of 214 Business deals imply >500 users — cap them at 375.5, or drop them?]
+B) Same, but weight each deal by its raw implied user count (no banding).
+C) No weighting: simple average discount per tier (Business 18.70%, Growth 18.57%) vs average threshold (Business 15.12%, Growth 14.69%).
+D) Something else (e.g., join the logs to the deal-transaction file's Customer_Size_Segment, or weight by ARR from Revenue_by_Segment).
+
+For reference, results are: C → Business 18.70% / +23.68%, Growth 18.57% / +26.42%; A (capped) → Business 18.60% / +22.87%, Growth 19.01% / +25.34%; B → Business 18.77% / +22.42%, Growth 19.13% / +25.48%. Also please confirm: use Final_Approved_Discount_% (not Discount_Requested_%) and variance = (avg discount − avg threshold) ÷ avg threshold.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,scripted#1,done,5,True,"Thanks — I have everything I need except one weighting detail. Facts I've locked in: latest pricing = v4.2 (Business $32/user/mo, Growth $58/user/mo, from Brightpath_Historical_Pricing_Versions_ChangeLog); discount logs = Brightpath_Discount_Approval_Logs_v1.0 (800 rows; both copies are identical) using Final_Approved_Discount_% and the mean of Policy_Threshold_% per tier; company-size bands = Revenue_by_Segment (10–50, 51–250, 251–500 → midpoints 30 / 150.5 / 375.5).
+
+The logs have no company-size column, only Initial_List_Price, so how should the ""midpoint as user count"" weighting be applied?
+
+A) Implied users = Initial_List_Price ÷ (v4.2 price × 12) → map to the band it falls in → weight that deal's discount by the band midpoint (30/150.5/375.5). [75 of 214 Business deals imply >500 users — cap them at 375.5, or drop them?]
+B) Same, but weight each deal by its raw implied user count (no banding).
+C) No weighting: simple average discount per tier (Business 18.70%, Growth 18.57%) vs average threshold (Business 15.12%, Growth 14.69%).
+D) Something else (e.g., join the logs to the deal-transaction file's Customer_Size_Segment, or weight by ARR from Revenue_by_Segment).
+
+For reference, results are: C → Business 18.70% / +23.68%, Growth 18.57% / +26.42%; A (capped) → Business 18.60% / +22.87%, Growth 19.01% / +25.34%; B → Business 18.77% / +22.42%, Growth 19.13% / +25.48%. Also please confirm: use Final_Approved_Discount_% (not Discount_Requested_%) and variance = (avg discount − avg threshold) ÷ avg threshold.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simB_helpful#0,done,3,True,"Thanks — I have everything I need except one weighting detail. Facts I've locked in: latest pricing = v4.2 (Business $32/user/mo, Growth $58/user/mo, from Brightpath_Historical_Pricing_Versions_ChangeLog); discount logs = Brightpath_Discount_Approval_Logs_v1.0 (800 rows; both copies are identical) using Final_Approved_Discount_% and the mean of Policy_Threshold_% per tier; company-size bands = Revenue_by_Segment (10–50, 51–250, 251–500 → midpoints 30 / 150.5 / 375.5).
+
+The logs have no company-size column, only Initial_List_Price, so how should the ""midpoint as user count"" weighting be applied?
+
+A) Implied users = Initial_List_Price ÷ (v4.2 price × 12) → map to the band it falls in → weight that deal's discount by the band midpoint (30/150.5/375.5). [75 of 214 Business deals imply >500 users — cap them at 375.5, or drop them?]
+B) Same, but weight each deal by its raw implied user count (no banding).
+C) No weighting: simple average discount per tier (Business 18.70%, Growth 18.57%) vs average threshold (Business 15.12%, Growth 14.69%).
+D) Something else (e.g., join the logs to the deal-transaction file's Customer_Size_Segment, or weight by ARR from Revenue_by_Segment).
+
+For reference, results are: C → Business 18.70% / +23.68%, Growth 18.57% / +26.42%; A (capped) → Business 18.60% / +22.87%, Growth 19.01% / +25.34%; B → Business 18.77% / +22.42%, Growth 19.13% / +25.48%. Also please confirm: use Final_Approved_Discount_% (not Discount_Requested_%) and variance = (avg discount − avg threshold) ÷ avg threshold.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simB_helpful#1,done,2,True,"Thanks — I have everything I need except one weighting detail. Facts I've locked in: latest pricing = v4.2 (Business $32/user/mo, Growth $58/user/mo, from Brightpath_Historical_Pricing_Versions_ChangeLog); discount logs = Brightpath_Discount_Approval_Logs_v1.0 (800 rows; both copies are identical) using Final_Approved_Discount_% and the mean of Policy_Threshold_% per tier; company-size bands = Revenue_by_Segment (10–50, 51–250, 251–500 → midpoints 30 / 150.5 / 375.5).
+
+The logs have no company-size column, only Initial_List_Price, so how should the ""midpoint as user count"" weighting be applied?
+
+A) Implied users = Initial_List_Price ÷ (v4.2 price × 12) → map to the band it falls in → weight that deal's discount by the band midpoint (30/150.5/375.5). [75 of 214 Business deals imply >500 users — cap them at 375.5, or drop them?]
+B) Same, but weight each deal by its raw implied user count (no banding).
+C) No weighting: simple average discount per tier (Business 18.70%, Growth 18.57%) vs average threshold (Business 15.12%, Growth 14.69%).
+D) Something else (e.g., join the logs to the deal-transaction file's Customer_Size_Segment, or weight by ARR from Revenue_by_Segment).
+
+For reference, results are: C → Business 18.70% / +23.68%, Growth 18.57% / +26.42%; A (capped) → Business 18.60% / +22.87%, Growth 19.01% / +25.34%; B → Business 18.77% / +22.42%, Growth 19.13% / +25.48%. Also please confirm: use Final_Approved_Discount_% (not Discount_Requested_%) and variance = (avg discount − avg threshold) ÷ avg threshold.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,adapted,base,contacted,14,True,"Thanks — I've located the sources. Two quick confirmations before I lock the numbers (I can only ask once, so I'll state my default if you don't correct me):
+
+1) Which discount column should count as ""the average discount percentage""?
+   - Default: Final_Approved_Discount_% (the discount actually granted), simple (unweighted) mean per tier.
+   - Alternatives: Discount_Requested_% , or a deal-value-weighted mean using Initial_List_Price.
+
+2) ""Using the latest pricing version"" (v4.2, effective 2024-04-01, no end date in the changelog): should I restrict the approval-log rows to deals approved on/after 2024-04-01 (v4.2 window, n=161 Business / 130 Growth), or use all 800 log rows (all dated 2024)?
+   - Default: all 2024 log rows for the tier averages, with the v4.2 window reported as a sensitivity.
+
+3) Variance definition: % variance = (tier avg discount − tier avg Policy_Threshold_%) / tier avg Policy_Threshold_% × 100. Confirm you want relative %, not percentage-point gap.
+
+FYI, the two copies of the discount log (…_v1.0.xlsx and …_v1.0(1).xlsx) are byte-for-byte identical in data, and the Revenue by Segment file has no tier field, so it can't drive the tier averages — I'll use it only for context/weighting if you want ARR weighting instead.",,,
+world-129-cy-task-3-2bcdc3db,adapted,scripted#1,done,15,True,"Thanks — I've located the sources. Two quick confirmations before I lock the numbers (I can only ask once, so I'll state my default if you don't correct me):
+
+1) Which discount column should count as ""the average discount percentage""?
+   - Default: Final_Approved_Discount_% (the discount actually granted), simple (unweighted) mean per tier.
+   - Alternatives: Discount_Requested_% , or a deal-value-weighted mean using Initial_List_Price.
+
+2) ""Using the latest pricing version"" (v4.2, effective 2024-04-01, no end date in the changelog): should I restrict the approval-log rows to deals approved on/after 2024-04-01 (v4.2 window, n=161 Business / 130 Growth), or use all 800 log rows (all dated 2024)?
+   - Default: all 2024 log rows for the tier averages, with the v4.2 window reported as a sensitivity.
+
+3) Variance definition: % variance = (tier avg discount − tier avg Policy_Threshold_%) / tier avg Policy_Threshold_% × 100. Confirm you want relative %, not percentage-point gap.
+
+FYI, the two copies of the discount log (…_v1.0.xlsx and …_v1.0(1).xlsx) are byte-for-byte identical in data, and the Revenue by Segment file has no tier field, so it can't drive the tier averages — I'll use it only for context/weighting if you want ARR weighting instead.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,adapted,simB_helpful#1,done,5,True,"Thanks — I've located the sources. Two quick confirmations before I lock the numbers (I can only ask once, so I'll state my default if you don't correct me):
+
+1) Which discount column should count as ""the average discount percentage""?
+   - Default: Final_Approved_Discount_% (the discount actually granted), simple (unweighted) mean per tier.
+   - Alternatives: Discount_Requested_% , or a deal-value-weighted mean using Initial_List_Price.
+
+2) ""Using the latest pricing version"" (v4.2, effective 2024-04-01, no end date in the changelog): should I restrict the approval-log rows to deals approved on/after 2024-04-01 (v4.2 window, n=161 Business / 130 Growth), or use all 800 log rows (all dated 2024)?
+   - Default: all 2024 log rows for the tier averages, with the v4.2 window reported as a sensitivity.
+
+3) Variance definition: % variance = (tier avg discount − tier avg Policy_Threshold_%) / tier avg Policy_Threshold_% × 100. Confirm you want relative %, not percentage-point gap.
+
+FYI, the two copies of the discount log (…_v1.0.xlsx and …_v1.0(1).xlsx) are byte-for-byte identical in data, and the Revenue by Segment file has no tier field, so it can't drive the tier averages — I'll use it only for context/weighting if you want ARR weighting instead.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,adapted,simA_minimal#0,done,11,True,"Thanks — I've located the sources. Two quick confirmations before I lock the numbers (I can only ask once, so I'll state my default if you don't correct me):
+
+1) Which discount column should count as ""the average discount percentage""?
+   - Default: Final_Approved_Discount_% (the discount actually granted), simple (unweighted) mean per tier.
+   - Alternatives: Discount_Requested_% , or a deal-value-weighted mean using Initial_List_Price.
+
+2) ""Using the latest pricing version"" (v4.2, effective 2024-04-01, no end date in the changelog): should I restrict the approval-log rows to deals approved on/after 2024-04-01 (v4.2 window, n=161 Business / 130 Growth), or use all 800 log rows (all dated 2024)?
+   - Default: all 2024 log rows for the tier averages, with the v4.2 window reported as a sensitivity.
+
+3) Variance definition: % variance = (tier avg discount − tier avg Policy_Threshold_%) / tier avg Policy_Threshold_% × 100. Confirm you want relative %, not percentage-point gap.
+
+FYI, the two copies of the discount log (…_v1.0.xlsx and …_v1.0(1).xlsx) are byte-for-byte identical in data, and the Revenue by Segment file has no tier field, so it can't drive the tier averages — I'll use it only for context/weighting if you want ARR weighting instead.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,adapted,simB_helpful#0,done,4,True,"Thanks — I've located the sources. Two quick confirmations before I lock the numbers (I can only ask once, so I'll state my default if you don't correct me):
+
+1) Which discount column should count as ""the average discount percentage""?
+   - Default: Final_Approved_Discount_% (the discount actually granted), simple (unweighted) mean per tier.
+   - Alternatives: Discount_Requested_% , or a deal-value-weighted mean using Initial_List_Price.
+
+2) ""Using the latest pricing version"" (v4.2, effective 2024-04-01, no end date in the changelog): should I restrict the approval-log rows to deals approved on/after 2024-04-01 (v4.2 window, n=161 Business / 130 Growth), or use all 800 log rows (all dated 2024)?
+   - Default: all 2024 log rows for the tier averages, with the v4.2 window reported as a sensitivity.
+
+3) Variance definition: % variance = (tier avg discount − tier avg Policy_Threshold_%) / tier avg Policy_Threshold_% × 100. Confirm you want relative %, not percentage-point gap.
+
+FYI, the two copies of the discount log (…_v1.0.xlsx and …_v1.0(1).xlsx) are byte-for-byte identical in data, and the Revenue by Segment file has no tier field, so it can't drive the tier averages — I'll use it only for context/weighting if you want ARR weighting instead.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,adapted,simA_minimal#1,done,13,True,"Thanks — I've located the sources. Two quick confirmations before I lock the numbers (I can only ask once, so I'll state my default if you don't correct me):
+
+1) Which discount column should count as ""the average discount percentage""?
+   - Default: Final_Approved_Discount_% (the discount actually granted), simple (unweighted) mean per tier.
+   - Alternatives: Discount_Requested_% , or a deal-value-weighted mean using Initial_List_Price.
+
+2) ""Using the latest pricing version"" (v4.2, effective 2024-04-01, no end date in the changelog): should I restrict the approval-log rows to deals approved on/after 2024-04-01 (v4.2 window, n=161 Business / 130 Growth), or use all 800 log rows (all dated 2024)?
+   - Default: all 2024 log rows for the tier averages, with the v4.2 window reported as a sensitivity.
+
+3) Variance definition: % variance = (tier avg discount − tier avg Policy_Threshold_%) / tier avg Policy_Threshold_% × 100. Confirm you want relative %, not percentage-point gap.
+
+FYI, the two copies of the discount log (…_v1.0.xlsx and …_v1.0(1).xlsx) are byte-for-byte identical in data, and the Revenue by Segment file has no tier field, so it can't drive the tier averages — I'll use it only for context/weighting if you want ARR weighting instead.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,adapted,scripted#0,done,10,True,"Thanks — I've located the sources. Two quick confirmations before I lock the numbers (I can only ask once, so I'll state my default if you don't correct me):
+
+1) Which discount column should count as ""the average discount percentage""?
+   - Default: Final_Approved_Discount_% (the discount actually granted), simple (unweighted) mean per tier.
+   - Alternatives: Discount_Requested_% , or a deal-value-weighted mean using Initial_List_Price.
+
+2) ""Using the latest pricing version"" (v4.2, effective 2024-04-01, no end date in the changelog): should I restrict the approval-log rows to deals approved on/after 2024-04-01 (v4.2 window, n=161 Business / 130 Growth), or use all 800 log rows (all dated 2024)?
+   - Default: all 2024 log rows for the tier averages, with the v4.2 window reported as a sensitivity.
+
+3) Variance definition: % variance = (tier avg discount − tier avg Policy_Threshold_%) / tier avg Policy_Threshold_% × 100. Confirm you want relative %, not percentage-point gap.
+
+FYI, the two copies of the discount log (…_v1.0.xlsx and …_v1.0(1).xlsx) are byte-for-byte identical in data, and the Revenue by Segment file has no tier field, so it can't drive the tier averages — I'll use it only for context/weighting if you want ARR weighting instead.",0.0,0,True
+world-134-rg-04-4498da8f,complete,base,contacted,75,True,"Two quick confirmations so I get the TrainIQ scenario math right.
+
+1) The attached ""TrainIQ Market Share"" report is an image-only PDF; I read the bar chart values as: Research Firm A = 7%, Firm B = 12%, Firm C = 18% (y-axis ""Percentage"", 0–18 scale). Please confirm these figures and, more importantly, what they represent:
+   (a) the percentage-point amount of 2025 market share TrainIQ LOSES (so CompliSure's share = base share + 7 / 12 / 18 pp), or
+   (b) each firm's estimate of TrainIQ's RESULTING 2025 market share (so the loss = TrainIQ's current 2025 share minus 7 / 12 / 18 pp). For reference, TrainIQ 2025B revenue = $78.77M (Financial dataset expanded) ÷ 2025 market size $422.998M (latest 5-yr forecast) = 18.62% today.
+
+2) ""Latest version of the 5-year forecast"": I plan to use 5. Forecast model/Management_Forecast_v8.xlsx (2025 total revenue $49.706M; market size/share rows carried in v7b: $422,997.784K market, 11.7509% CompliSure share). OK, or should I use 5yr_forecast_v5.xlsx (9.7509% share, $41.246M) instead?",,,
+world-134-rg-04-4498da8f,complete,scripted#1,done,11,True,"Two quick confirmations so I get the TrainIQ scenario math right.
+
+1) The attached ""TrainIQ Market Share"" report is an image-only PDF; I read the bar chart values as: Research Firm A = 7%, Firm B = 12%, Firm C = 18% (y-axis ""Percentage"", 0–18 scale). Please confirm these figures and, more importantly, what they represent:
+   (a) the percentage-point amount of 2025 market share TrainIQ LOSES (so CompliSure's share = base share + 7 / 12 / 18 pp), or
+   (b) each firm's estimate of TrainIQ's RESULTING 2025 market share (so the loss = TrainIQ's current 2025 share minus 7 / 12 / 18 pp). For reference, TrainIQ 2025B revenue = $78.77M (Financial dataset expanded) ÷ 2025 market size $422.998M (latest 5-yr forecast) = 18.62% today.
+
+2) ""Latest version of the 5-year forecast"": I plan to use 5. Forecast model/Management_Forecast_v8.xlsx (2025 total revenue $49.706M; market size/share rows carried in v7b: $422,997.784K market, 11.7509% CompliSure share). OK, or should I use 5yr_forecast_v5.xlsx (9.7509% share, $41.246M) instead?",0.0,0,True
+world-134-rg-04-4498da8f,complete,simA_minimal#0,done,3,True,"Two quick confirmations so I get the TrainIQ scenario math right.
+
+1) The attached ""TrainIQ Market Share"" report is an image-only PDF; I read the bar chart values as: Research Firm A = 7%, Firm B = 12%, Firm C = 18% (y-axis ""Percentage"", 0–18 scale). Please confirm these figures and, more importantly, what they represent:
+   (a) the percentage-point amount of 2025 market share TrainIQ LOSES (so CompliSure's share = base share + 7 / 12 / 18 pp), or
+   (b) each firm's estimate of TrainIQ's RESULTING 2025 market share (so the loss = TrainIQ's current 2025 share minus 7 / 12 / 18 pp). For reference, TrainIQ 2025B revenue = $78.77M (Financial dataset expanded) ÷ 2025 market size $422.998M (latest 5-yr forecast) = 18.62% today.
+
+2) ""Latest version of the 5-year forecast"": I plan to use 5. Forecast model/Management_Forecast_v8.xlsx (2025 total revenue $49.706M; market size/share rows carried in v7b: $422,997.784K market, 11.7509% CompliSure share). OK, or should I use 5yr_forecast_v5.xlsx (9.7509% share, $41.246M) instead?",0.0,0,True
+world-134-rg-04-4498da8f,complete,simB_helpful#1,done,6,True,"Two quick confirmations so I get the TrainIQ scenario math right.
+
+1) The attached ""TrainIQ Market Share"" report is an image-only PDF; I read the bar chart values as: Research Firm A = 7%, Firm B = 12%, Firm C = 18% (y-axis ""Percentage"", 0–18 scale). Please confirm these figures and, more importantly, what they represent:
+   (a) the percentage-point amount of 2025 market share TrainIQ LOSES (so CompliSure's share = base share + 7 / 12 / 18 pp), or
+   (b) each firm's estimate of TrainIQ's RESULTING 2025 market share (so the loss = TrainIQ's current 2025 share minus 7 / 12 / 18 pp). For reference, TrainIQ 2025B revenue = $78.77M (Financial dataset expanded) ÷ 2025 market size $422.998M (latest 5-yr forecast) = 18.62% today.
+
+2) ""Latest version of the 5-year forecast"": I plan to use 5. Forecast model/Management_Forecast_v8.xlsx (2025 total revenue $49.706M; market size/share rows carried in v7b: $422,997.784K market, 11.7509% CompliSure share). OK, or should I use 5yr_forecast_v5.xlsx (9.7509% share, $41.246M) instead?",0.0,0,True
+world-134-rg-04-4498da8f,complete,simA_minimal#1,done,7,True,"Two quick confirmations so I get the TrainIQ scenario math right.
+
+1) The attached ""TrainIQ Market Share"" report is an image-only PDF; I read the bar chart values as: Research Firm A = 7%, Firm B = 12%, Firm C = 18% (y-axis ""Percentage"", 0–18 scale). Please confirm these figures and, more importantly, what they represent:
+   (a) the percentage-point amount of 2025 market share TrainIQ LOSES (so CompliSure's share = base share + 7 / 12 / 18 pp), or
+   (b) each firm's estimate of TrainIQ's RESULTING 2025 market share (so the loss = TrainIQ's current 2025 share minus 7 / 12 / 18 pp). For reference, TrainIQ 2025B revenue = $78.77M (Financial dataset expanded) ÷ 2025 market size $422.998M (latest 5-yr forecast) = 18.62% today.
+
+2) ""Latest version of the 5-year forecast"": I plan to use 5. Forecast model/Management_Forecast_v8.xlsx (2025 total revenue $49.706M; market size/share rows carried in v7b: $422,997.784K market, 11.7509% CompliSure share). OK, or should I use 5yr_forecast_v5.xlsx (9.7509% share, $41.246M) instead?",0.0,0,True
+world-134-rg-04-4498da8f,complete,simB_helpful#0,done,8,True,"Two quick confirmations so I get the TrainIQ scenario math right.
+
+1) The attached ""TrainIQ Market Share"" report is an image-only PDF; I read the bar chart values as: Research Firm A = 7%, Firm B = 12%, Firm C = 18% (y-axis ""Percentage"", 0–18 scale). Please confirm these figures and, more importantly, what they represent:
+   (a) the percentage-point amount of 2025 market share TrainIQ LOSES (so CompliSure's share = base share + 7 / 12 / 18 pp), or
+   (b) each firm's estimate of TrainIQ's RESULTING 2025 market share (so the loss = TrainIQ's current 2025 share minus 7 / 12 / 18 pp). For reference, TrainIQ 2025B revenue = $78.77M (Financial dataset expanded) ÷ 2025 market size $422.998M (latest 5-yr forecast) = 18.62% today.
+
+2) ""Latest version of the 5-year forecast"": I plan to use 5. Forecast model/Management_Forecast_v8.xlsx (2025 total revenue $49.706M; market size/share rows carried in v7b: $422,997.784K market, 11.7509% CompliSure share). OK, or should I use 5yr_forecast_v5.xlsx (9.7509% share, $41.246M) instead?",0.0,0,True
+world-134-rg-04-4498da8f,complete,scripted#0,done,3,True,"Two quick confirmations so I get the TrainIQ scenario math right.
+
+1) The attached ""TrainIQ Market Share"" report is an image-only PDF; I read the bar chart values as: Research Firm A = 7%, Firm B = 12%, Firm C = 18% (y-axis ""Percentage"", 0–18 scale). Please confirm these figures and, more importantly, what they represent:
+   (a) the percentage-point amount of 2025 market share TrainIQ LOSES (so CompliSure's share = base share + 7 / 12 / 18 pp), or
+   (b) each firm's estimate of TrainIQ's RESULTING 2025 market share (so the loss = TrainIQ's current 2025 share minus 7 / 12 / 18 pp). For reference, TrainIQ 2025B revenue = $78.77M (Financial dataset expanded) ÷ 2025 market size $422.998M (latest 5-yr forecast) = 18.62% today.
+
+2) ""Latest version of the 5-year forecast"": I plan to use 5. Forecast model/Management_Forecast_v8.xlsx (2025 total revenue $49.706M; market size/share rows carried in v7b: $422,997.784K market, 11.7509% CompliSure share). OK, or should I use 5yr_forecast_v5.xlsx (9.7509% share, $41.246M) instead?",0.0,0,True
+world-134-rg-04-4498da8f,adapted,base,done_forced,80,False,,0.3333333333333333,2,
+lawworld433-anb-01-5d12cf8d,complete,base,done,9,False,,1.0,2,
+lawworld433-anb-01-5d12cf8d,adapted,base,done,26,False,,0.3333333333333333,0,
+lawworld417-ne-06-7d454c39,complete,base,done,16,False,,1.0,1,
+lawworld417-ne-06-7d454c39,adapted,base,done,19,False,,0.6666666666666666,0,
+world223-smn-05-b00d08c1,complete,base,done,6,False,,0.0,0,
+world223-smn-05-b00d08c1,adapted,base,done,14,False,,0.0,0,
+world-225-je-01-70449b2d,complete,base,done,14,False,,1.0,2,
+world-225-je-01-70449b2d,adapted,base,done,16,False,,0.0,0,
+world-221-hy-05-fa5120b0,complete,base,contacted,20,True,"Quick methodology check on the 4-step value creation bridge (I have all the data; this is the only open convention).
+
+For each scenario I compute an ""Implied Equity Value"" as the equal-weight blend of the three multiple legs: (NAV × median P/NAV 0.7182x) + (NII × median P/E 10.17x) + (Sales × median P/S 9.11x) — medians taken from the 9-company comp set in the comps file (the same set used by the Median row and by slide 4.2 of the deck). Inputs are on the 9M TTM 2025 account: BBDC LTM NAV $1,166,795k / LTM NII $119,328k / LTM Sales $281,866k; run-rate synergies $21,085k (7.5% × combined EBIT); TPVG standalone NAV $355,053k; PF NAV $1,413,233k, PF NII $185,372k, PF Sales $376,005k, PF shares 133,494k.
+
+The one thing not specified is how the incremental steps should be layered:
+
+(A) Recast the 3-method blend at every step (each new input flows through its own leg, 1/3 weight): S1 $1,539,792k → S2 $1,611,271k (+4.64%) → S3 $1,696,273k (+5.28%) → S4 $2,108,549k (+24.30%); total vs standalone +36.94%.
+
+(B) Capitalize each increment at its full multiple (additive bridge): S1 $1,539,792k → S2 $1,754,230k (+13.93%) → S3 $2,009,235k (+14.54%) → S4 $2,108,549k (+4.94%); total vs standalone +36.94%.
+
+Scenario 4 (Pro Forma Implied Equity Value after dilution = $2,108,549k) and the total (+36.94%) are identical either way — only the three intermediate step deltas differ. Unless you tell me otherwise I will report (A), since it keeps every scenario on the same like-for-like blended-multiple basis. Please confirm A or B (and flag if you want the 12-company comp set including TSLX/GBDC/TRIN instead of the 9).",,,
+world-221-hy-05-fa5120b0,complete,simB_helpful#1,done,3,True,"Quick methodology check on the 4-step value creation bridge (I have all the data; this is the only open convention).
+
+For each scenario I compute an ""Implied Equity Value"" as the equal-weight blend of the three multiple legs: (NAV × median P/NAV 0.7182x) + (NII × median P/E 10.17x) + (Sales × median P/S 9.11x) — medians taken from the 9-company comp set in the comps file (the same set used by the Median row and by slide 4.2 of the deck). Inputs are on the 9M TTM 2025 account: BBDC LTM NAV $1,166,795k / LTM NII $119,328k / LTM Sales $281,866k; run-rate synergies $21,085k (7.5% × combined EBIT); TPVG standalone NAV $355,053k; PF NAV $1,413,233k, PF NII $185,372k, PF Sales $376,005k, PF shares 133,494k.
+
+The one thing not specified is how the incremental steps should be layered:
+
+(A) Recast the 3-method blend at every step (each new input flows through its own leg, 1/3 weight): S1 $1,539,792k → S2 $1,611,271k (+4.64%) → S3 $1,696,273k (+5.28%) → S4 $2,108,549k (+24.30%); total vs standalone +36.94%.
+
+(B) Capitalize each increment at its full multiple (additive bridge): S1 $1,539,792k → S2 $1,754,230k (+13.93%) → S3 $2,009,235k (+14.54%) → S4 $2,108,549k (+4.94%); total vs standalone +36.94%.
+
+Scenario 4 (Pro Forma Implied Equity Value after dilution = $2,108,549k) and the total (+36.94%) are identical either way — only the three intermediate step deltas differ. Unless you tell me otherwise I will report (A), since it keeps every scenario on the same like-for-like blended-multiple basis. Please confirm A or B (and flag if you want the 12-company comp set including TSLX/GBDC/TRIN instead of the 9).",0.6,3,True
+world-221-hy-05-fa5120b0,complete,scripted#0,done,4,True,"Quick methodology check on the 4-step value creation bridge (I have all the data; this is the only open convention).
+
+For each scenario I compute an ""Implied Equity Value"" as the equal-weight blend of the three multiple legs: (NAV × median P/NAV 0.7182x) + (NII × median P/E 10.17x) + (Sales × median P/S 9.11x) — medians taken from the 9-company comp set in the comps file (the same set used by the Median row and by slide 4.2 of the deck). Inputs are on the 9M TTM 2025 account: BBDC LTM NAV $1,166,795k / LTM NII $119,328k / LTM Sales $281,866k; run-rate synergies $21,085k (7.5% × combined EBIT); TPVG standalone NAV $355,053k; PF NAV $1,413,233k, PF NII $185,372k, PF Sales $376,005k, PF shares 133,494k.
+
+The one thing not specified is how the incremental steps should be layered:
+
+(A) Recast the 3-method blend at every step (each new input flows through its own leg, 1/3 weight): S1 $1,539,792k → S2 $1,611,271k (+4.64%) → S3 $1,696,273k (+5.28%) → S4 $2,108,549k (+24.30%); total vs standalone +36.94%.
+
+(B) Capitalize each increment at its full multiple (additive bridge): S1 $1,539,792k → S2 $1,754,230k (+13.93%) → S3 $2,009,235k (+14.54%) → S4 $2,108,549k (+4.94%); total vs standalone +36.94%.
+
+Scenario 4 (Pro Forma Implied Equity Value after dilution = $2,108,549k) and the total (+36.94%) are identical either way — only the three intermediate step deltas differ. Unless you tell me otherwise I will report (A), since it keeps every scenario on the same like-for-like blended-multiple basis. Please confirm A or B (and flag if you want the 12-company comp set including TSLX/GBDC/TRIN instead of the 9).",0.6,3,True
+world-221-hy-05-fa5120b0,complete,simA_minimal#1,done,3,True,"Quick methodology check on the 4-step value creation bridge (I have all the data; this is the only open convention).
+
+For each scenario I compute an ""Implied Equity Value"" as the equal-weight blend of the three multiple legs: (NAV × median P/NAV 0.7182x) + (NII × median P/E 10.17x) + (Sales × median P/S 9.11x) — medians taken from the 9-company comp set in the comps file (the same set used by the Median row and by slide 4.2 of the deck). Inputs are on the 9M TTM 2025 account: BBDC LTM NAV $1,166,795k / LTM NII $119,328k / LTM Sales $281,866k; run-rate synergies $21,085k (7.5% × combined EBIT); TPVG standalone NAV $355,053k; PF NAV $1,413,233k, PF NII $185,372k, PF Sales $376,005k, PF shares 133,494k.
+
+The one thing not specified is how the incremental steps should be layered:
+
+(A) Recast the 3-method blend at every step (each new input flows through its own leg, 1/3 weight): S1 $1,539,792k → S2 $1,611,271k (+4.64%) → S3 $1,696,273k (+5.28%) → S4 $2,108,549k (+24.30%); total vs standalone +36.94%.
+
+(B) Capitalize each increment at its full multiple (additive bridge): S1 $1,539,792k → S2 $1,754,230k (+13.93%) → S3 $2,009,235k (+14.54%) → S4 $2,108,549k (+4.94%); total vs standalone +36.94%.
+
+Scenario 4 (Pro Forma Implied Equity Value after dilution = $2,108,549k) and the total (+36.94%) are identical either way — only the three intermediate step deltas differ. Unless you tell me otherwise I will report (A), since it keeps every scenario on the same like-for-like blended-multiple basis. Please confirm A or B (and flag if you want the 12-company comp set including TSLX/GBDC/TRIN instead of the 9).",0.6,3,True
+world-221-hy-05-fa5120b0,complete,simB_helpful#0,done,3,True,"Quick methodology check on the 4-step value creation bridge (I have all the data; this is the only open convention).
+
+For each scenario I compute an ""Implied Equity Value"" as the equal-weight blend of the three multiple legs: (NAV × median P/NAV 0.7182x) + (NII × median P/E 10.17x) + (Sales × median P/S 9.11x) — medians taken from the 9-company comp set in the comps file (the same set used by the Median row and by slide 4.2 of the deck). Inputs are on the 9M TTM 2025 account: BBDC LTM NAV $1,166,795k / LTM NII $119,328k / LTM Sales $281,866k; run-rate synergies $21,085k (7.5% × combined EBIT); TPVG standalone NAV $355,053k; PF NAV $1,413,233k, PF NII $185,372k, PF Sales $376,005k, PF shares 133,494k.
+
+The one thing not specified is how the incremental steps should be layered:
+
+(A) Recast the 3-method blend at every step (each new input flows through its own leg, 1/3 weight): S1 $1,539,792k → S2 $1,611,271k (+4.64%) → S3 $1,696,273k (+5.28%) → S4 $2,108,549k (+24.30%); total vs standalone +36.94%.
+
+(B) Capitalize each increment at its full multiple (additive bridge): S1 $1,539,792k → S2 $1,754,230k (+13.93%) → S3 $2,009,235k (+14.54%) → S4 $2,108,549k (+4.94%); total vs standalone +36.94%.
+
+Scenario 4 (Pro Forma Implied Equity Value after dilution = $2,108,549k) and the total (+36.94%) are identical either way — only the three intermediate step deltas differ. Unless you tell me otherwise I will report (A), since it keeps every scenario on the same like-for-like blended-multiple basis. Please confirm A or B (and flag if you want the 12-company comp set including TSLX/GBDC/TRIN instead of the 9).",0.6,3,True
+world-221-hy-05-fa5120b0,complete,simA_minimal#0,done,2,True,"Quick methodology check on the 4-step value creation bridge (I have all the data; this is the only open convention).
+
+For each scenario I compute an ""Implied Equity Value"" as the equal-weight blend of the three multiple legs: (NAV × median P/NAV 0.7182x) + (NII × median P/E 10.17x) + (Sales × median P/S 9.11x) — medians taken from the 9-company comp set in the comps file (the same set used by the Median row and by slide 4.2 of the deck). Inputs are on the 9M TTM 2025 account: BBDC LTM NAV $1,166,795k / LTM NII $119,328k / LTM Sales $281,866k; run-rate synergies $21,085k (7.5% × combined EBIT); TPVG standalone NAV $355,053k; PF NAV $1,413,233k, PF NII $185,372k, PF Sales $376,005k, PF shares 133,494k.
+
+The one thing not specified is how the incremental steps should be layered:
+
+(A) Recast the 3-method blend at every step (each new input flows through its own leg, 1/3 weight): S1 $1,539,792k → S2 $1,611,271k (+4.64%) → S3 $1,696,273k (+5.28%) → S4 $2,108,549k (+24.30%); total vs standalone +36.94%.
+
+(B) Capitalize each increment at its full multiple (additive bridge): S1 $1,539,792k → S2 $1,754,230k (+13.93%) → S3 $2,009,235k (+14.54%) → S4 $2,108,549k (+4.94%); total vs standalone +36.94%.
+
+Scenario 4 (Pro Forma Implied Equity Value after dilution = $2,108,549k) and the total (+36.94%) are identical either way — only the three intermediate step deltas differ. Unless you tell me otherwise I will report (A), since it keeps every scenario on the same like-for-like blended-multiple basis. Please confirm A or B (and flag if you want the 12-company comp set including TSLX/GBDC/TRIN instead of the 9).",0.6,3,True
+world-221-hy-05-fa5120b0,complete,scripted#1,done,4,True,"Quick methodology check on the 4-step value creation bridge (I have all the data; this is the only open convention).
+
+For each scenario I compute an ""Implied Equity Value"" as the equal-weight blend of the three multiple legs: (NAV × median P/NAV 0.7182x) + (NII × median P/E 10.17x) + (Sales × median P/S 9.11x) — medians taken from the 9-company comp set in the comps file (the same set used by the Median row and by slide 4.2 of the deck). Inputs are on the 9M TTM 2025 account: BBDC LTM NAV $1,166,795k / LTM NII $119,328k / LTM Sales $281,866k; run-rate synergies $21,085k (7.5% × combined EBIT); TPVG standalone NAV $355,053k; PF NAV $1,413,233k, PF NII $185,372k, PF Sales $376,005k, PF shares 133,494k.
+
+The one thing not specified is how the incremental steps should be layered:
+
+(A) Recast the 3-method blend at every step (each new input flows through its own leg, 1/3 weight): S1 $1,539,792k → S2 $1,611,271k (+4.64%) → S3 $1,696,273k (+5.28%) → S4 $2,108,549k (+24.30%); total vs standalone +36.94%.
+
+(B) Capitalize each increment at its full multiple (additive bridge): S1 $1,539,792k → S2 $1,754,230k (+13.93%) → S3 $2,009,235k (+14.54%) → S4 $2,108,549k (+4.94%); total vs standalone +36.94%.
+
+Scenario 4 (Pro Forma Implied Equity Value after dilution = $2,108,549k) and the total (+36.94%) are identical either way — only the three intermediate step deltas differ. Unless you tell me otherwise I will report (A), since it keeps every scenario on the same like-for-like blended-multiple basis. Please confirm A or B (and flag if you want the 12-company comp set including TSLX/GBDC/TRIN instead of the 9).",0.6,3,True
+world-221-hy-05-fa5120b0,adapted,base,contacted,16,True,"Building the 4-step bridge from the vF comps + valuation + merger models. The multiples I'll use are the comps-file medians (9 comps): P/NAV 0.7182x, P/E 10.17x, P/Sales 9.11x. Three methodology points I need you to confirm (defaults in bold if you just want me to proceed):
+
+1) Scenario 1 inputs — the valuation model's ""Valuation Analysis"" LTM column gives LTM NII = $119,328k and LTM Sales = $281,866k, but the model's own comps tab applies P/E to ""Net Income"" = $101,513k (net increase in net assets) and Sales = $281,865k. Should I use **LTM NII $119,328k / LTM Sales $281,866k / NAV $1,166,795k**, and average the three comps-implied equity values equally?
+
+2) Scenario 2 — how should the $22,887.9k run-rate (7.5% of combined EBIT) synergy be capitalized into equity value: (a) **median P/E 10.17x**, (b) the merger model's weighted-average EV/EBIT 9.6168x, or (c) add synergies to NII and re-run the 3-method average?
+
+3) Scenario 4 — ""after dilution"": should the pro forma comps-implied equity value be attributed to BBDC holders only (x 78.77% = 105,158.938 existing / 133,494.407 PF shares), **or shown as the full combined pro forma equity value**? This determines whether Step 3 -> Step 4 is negative (dilution) or positive.",,,
+world-221-hy-05-fa5120b0,adapted,simA_minimal#1,done,11,True,"Building the 4-step bridge from the vF comps + valuation + merger models. The multiples I'll use are the comps-file medians (9 comps): P/NAV 0.7182x, P/E 10.17x, P/Sales 9.11x. Three methodology points I need you to confirm (defaults in bold if you just want me to proceed):
+
+1) Scenario 1 inputs — the valuation model's ""Valuation Analysis"" LTM column gives LTM NII = $119,328k and LTM Sales = $281,866k, but the model's own comps tab applies P/E to ""Net Income"" = $101,513k (net increase in net assets) and Sales = $281,865k. Should I use **LTM NII $119,328k / LTM Sales $281,866k / NAV $1,166,795k**, and average the three comps-implied equity values equally?
+
+2) Scenario 2 — how should the $22,887.9k run-rate (7.5% of combined EBIT) synergy be capitalized into equity value: (a) **median P/E 10.17x**, (b) the merger model's weighted-average EV/EBIT 9.6168x, or (c) add synergies to NII and re-run the 3-method average?
+
+3) Scenario 4 — ""after dilution"": should the pro forma comps-implied equity value be attributed to BBDC holders only (x 78.77% = 105,158.938 existing / 133,494.407 PF shares), **or shown as the full combined pro forma equity value**? This determines whether Step 3 -> Step 4 is negative (dilution) or positive.",0.4,2,True
+world-221-hy-05-fa5120b0,adapted,simA_minimal#0,done,8,True,"Building the 4-step bridge from the vF comps + valuation + merger models. The multiples I'll use are the comps-file medians (9 comps): P/NAV 0.7182x, P/E 10.17x, P/Sales 9.11x. Three methodology points I need you to confirm (defaults in bold if you just want me to proceed):
+
+1) Scenario 1 inputs — the valuation model's ""Valuation Analysis"" LTM column gives LTM NII = $119,328k and LTM Sales = $281,866k, but the model's own comps tab applies P/E to ""Net Income"" = $101,513k (net increase in net assets) and Sales = $281,865k. Should I use **LTM NII $119,328k / LTM Sales $281,866k / NAV $1,166,795k**, and average the three comps-implied equity values equally?
+
+2) Scenario 2 — how should the $22,887.9k run-rate (7.5% of combined EBIT) synergy be capitalized into equity value: (a) **median P/E 10.17x**, (b) the merger model's weighted-average EV/EBIT 9.6168x, or (c) add synergies to NII and re-run the 3-method average?
+
+3) Scenario 4 — ""after dilution"": should the pro forma comps-implied equity value be attributed to BBDC holders only (x 78.77% = 105,158.938 existing / 133,494.407 PF shares), **or shown as the full combined pro forma equity value**? This determines whether Step 3 -> Step 4 is negative (dilution) or positive.",0.4,2,True
+world-221-hy-05-fa5120b0,adapted,scripted#0,done,9,True,"Building the 4-step bridge from the vF comps + valuation + merger models. The multiples I'll use are the comps-file medians (9 comps): P/NAV 0.7182x, P/E 10.17x, P/Sales 9.11x. Three methodology points I need you to confirm (defaults in bold if you just want me to proceed):
+
+1) Scenario 1 inputs — the valuation model's ""Valuation Analysis"" LTM column gives LTM NII = $119,328k and LTM Sales = $281,866k, but the model's own comps tab applies P/E to ""Net Income"" = $101,513k (net increase in net assets) and Sales = $281,865k. Should I use **LTM NII $119,328k / LTM Sales $281,866k / NAV $1,166,795k**, and average the three comps-implied equity values equally?
+
+2) Scenario 2 — how should the $22,887.9k run-rate (7.5% of combined EBIT) synergy be capitalized into equity value: (a) **median P/E 10.17x**, (b) the merger model's weighted-average EV/EBIT 9.6168x, or (c) add synergies to NII and re-run the 3-method average?
+
+3) Scenario 4 — ""after dilution"": should the pro forma comps-implied equity value be attributed to BBDC holders only (x 78.77% = 105,158.938 existing / 133,494.407 PF shares), **or shown as the full combined pro forma equity value**? This determines whether Step 3 -> Step 4 is negative (dilution) or positive.",0.4,2,True
+world-221-hy-05-fa5120b0,adapted,scripted#1,done,16,True,"Building the 4-step bridge from the vF comps + valuation + merger models. The multiples I'll use are the comps-file medians (9 comps): P/NAV 0.7182x, P/E 10.17x, P/Sales 9.11x. Three methodology points I need you to confirm (defaults in bold if you just want me to proceed):
+
+1) Scenario 1 inputs — the valuation model's ""Valuation Analysis"" LTM column gives LTM NII = $119,328k and LTM Sales = $281,866k, but the model's own comps tab applies P/E to ""Net Income"" = $101,513k (net increase in net assets) and Sales = $281,865k. Should I use **LTM NII $119,328k / LTM Sales $281,866k / NAV $1,166,795k**, and average the three comps-implied equity values equally?
+
+2) Scenario 2 — how should the $22,887.9k run-rate (7.5% of combined EBIT) synergy be capitalized into equity value: (a) **median P/E 10.17x**, (b) the merger model's weighted-average EV/EBIT 9.6168x, or (c) add synergies to NII and re-run the 3-method average?
+
+3) Scenario 4 — ""after dilution"": should the pro forma comps-implied equity value be attributed to BBDC holders only (x 78.77% = 105,158.938 existing / 133,494.407 PF shares), **or shown as the full combined pro forma equity value**? This determines whether Step 3 -> Step 4 is negative (dilution) or positive.",0.4,2,True
+world-221-hy-05-fa5120b0,adapted,simB_helpful#1,done,13,True,"Building the 4-step bridge from the vF comps + valuation + merger models. The multiples I'll use are the comps-file medians (9 comps): P/NAV 0.7182x, P/E 10.17x, P/Sales 9.11x. Three methodology points I need you to confirm (defaults in bold if you just want me to proceed):
+
+1) Scenario 1 inputs — the valuation model's ""Valuation Analysis"" LTM column gives LTM NII = $119,328k and LTM Sales = $281,866k, but the model's own comps tab applies P/E to ""Net Income"" = $101,513k (net increase in net assets) and Sales = $281,865k. Should I use **LTM NII $119,328k / LTM Sales $281,866k / NAV $1,166,795k**, and average the three comps-implied equity values equally?
+
+2) Scenario 2 — how should the $22,887.9k run-rate (7.5% of combined EBIT) synergy be capitalized into equity value: (a) **median P/E 10.17x**, (b) the merger model's weighted-average EV/EBIT 9.6168x, or (c) add synergies to NII and re-run the 3-method average?
+
+3) Scenario 4 — ""after dilution"": should the pro forma comps-implied equity value be attributed to BBDC holders only (x 78.77% = 105,158.938 existing / 133,494.407 PF shares), **or shown as the full combined pro forma equity value**? This determines whether Step 3 -> Step 4 is negative (dilution) or positive.",0.2,1,True
+world-221-hy-05-fa5120b0,adapted,simB_helpful#0,done,11,True,"Building the 4-step bridge from the vF comps + valuation + merger models. The multiples I'll use are the comps-file medians (9 comps): P/NAV 0.7182x, P/E 10.17x, P/Sales 9.11x. Three methodology points I need you to confirm (defaults in bold if you just want me to proceed):
+
+1) Scenario 1 inputs — the valuation model's ""Valuation Analysis"" LTM column gives LTM NII = $119,328k and LTM Sales = $281,866k, but the model's own comps tab applies P/E to ""Net Income"" = $101,513k (net increase in net assets) and Sales = $281,865k. Should I use **LTM NII $119,328k / LTM Sales $281,866k / NAV $1,166,795k**, and average the three comps-implied equity values equally?
+
+2) Scenario 2 — how should the $22,887.9k run-rate (7.5% of combined EBIT) synergy be capitalized into equity value: (a) **median P/E 10.17x**, (b) the merger model's weighted-average EV/EBIT 9.6168x, or (c) add synergies to NII and re-run the 3-method average?
+
+3) Scenario 4 — ""after dilution"": should the pro forma comps-implied equity value be attributed to BBDC holders only (x 78.77% = 105,158.938 existing / 133,494.407 PF shares), **or shown as the full combined pro forma equity value**? This determines whether Step 3 -> Step 4 is negative (dilution) or positive.",0.4,2,True

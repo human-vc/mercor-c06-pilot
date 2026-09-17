@@ -1,0 +1,7 @@
+Building the 4-step bridge from the vF comps + valuation + merger models. The multiples I'll use are the comps-file medians (9 comps): P/NAV 0.7182x, P/E 10.17x, P/Sales 9.11x. Three methodology points I need you to confirm (defaults in bold if you just want me to proceed):
+
+1) Scenario 1 inputs — the valuation model's "Valuation Analysis" LTM column gives LTM NII = $119,328k and LTM Sales = $281,866k, but the model's own comps tab applies P/E to "Net Income" = $101,513k (net increase in net assets) and Sales = $281,865k. Should I use **LTM NII $119,328k / LTM Sales $281,866k / NAV $1,166,795k**, and average the three comps-implied equity values equally?
+
+2) Scenario 2 — how should the $22,887.9k run-rate (7.5% of combined EBIT) synergy be capitalized into equity value: (a) **median P/E 10.17x**, (b) the merger model's weighted-average EV/EBIT 9.6168x, or (c) add synergies to NII and re-run the 3-method average?
+
+3) Scenario 4 — "after dilution": should the pro forma comps-implied equity value be attributed to BBDC holders only (x 78.77% = 105,158.938 existing / 133,494.407 PF shares), **or shown as the full combined pro forma equity value**? This determines whether Step 3 -> Step 4 is negative (dilution) or positive.

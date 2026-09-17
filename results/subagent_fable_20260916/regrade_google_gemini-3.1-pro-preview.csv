@@ -1,0 +1,17 @@
+task,variant,arm,old_score,new_score,unresolved,linked_met,linked_total
+128-jr-1-f7f95d92,adapted,adapted,0.5,0.5,0,3,6
+128-jr-1-f7f95d92,complete,complete,1.0,1.0,0,6,6
+lawworld417-ne-06-7d454c39,adapted,adapted,0.8333333333333334,1.0,0,1,1
+lawworld417-ne-06-7d454c39,complete,complete,1.0,1.0,0,1,1
+lawworld433-anb-01-5d12cf8d,adapted,adapted,1.0,1.0,0,2,2
+lawworld433-anb-01-5d12cf8d,complete,complete,1.0,1.0,0,2,2
+world-129-cy-task-3-2bcdc3db,adapted,adapted,0.0,0.0,0,0,4
+world-129-cy-task-3-2bcdc3db,complete,complete,0.0,0.0,0,0,4
+world-134-rg-04-4498da8f,adapted,adapted,1.0,1.0,0,6,6
+world-134-rg-04-4498da8f,complete,complete,1.0,1.0,0,6,6
+world-221-hy-05-fa5120b0,adapted,adapted,0.0,0.0,0,0,5
+world-221-hy-05-fa5120b0,complete,complete,0.6,0.6,0,3,5
+world-225-je-01-70449b2d,adapted,adapted,1.0,1.0,0,2,2
+world-225-je-01-70449b2d,complete,complete,1.0,1.0,0,2,2
+world223-smn-05-b00d08c1,adapted,adapted,0.0,0.0,0,0,4
+world223-smn-05-b00d08c1,complete,complete,0.0,0.0,0,0,4

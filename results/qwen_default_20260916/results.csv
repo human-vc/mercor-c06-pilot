@@ -1,0 +1,155 @@
+task,variant,arm,status,steps,contacted,message,mean_score,linked_met,restore_ok
+128-jr-1-f7f95d92,complete,base,done,19,False,,0.3333333333333333,2,
+128-jr-1-f7f95d92,adapted,base,done,27,False,,0.16666666666666666,1,
+world-129-cy-task-3-2bcdc3db,complete,base,contacted,19,True,"Question on methodology before I finalize the four numbers.
+
+What I have locked in:
+• Latest pricing version = v4.2 (effective Apr 1, 2024 → current): Team $15, Business $32, Growth $58, Enterprise $75–110/user/mo (Brightpath_Historical_Pricing_Versions_ChangeLog.xlsx).
+• Discount source = Brightpath_Discount_Approval_Logs_v1.0.xlsx (800 rows, all FY2024): Business n=214, Growth n=176; discount = Final_Approved_Discount_%, threshold = Policy_Threshold_%.
+• Company Size ranges (Brightpath_Revenue_by_Segment.xlsx → ARR_by_Company_Size): Small Practice 10–50 → midpoint 30 users (2,694 customers), Mid-Market 51–250 → 150.5 (1,080), Upper Mid-Market 251–500 → 375.5 (209).
+
+What I need you to confirm is how the user count should be applied, because the discount log has no company-size field:
+(A) Join each Deal_ID to Brightpath_Deal_Transactions_v1.0.xlsx to get Customer_Size_Segment, assign the band midpoint as that deal's user count, and compute user-weighted average discount AND user-weighted average threshold per tier; or
+(B) Simple unweighted mean of Final_Approved_Discount_% and Policy_Threshold_% per tier (user count not used as a weight); or
+(C) Weight each tier's per-band average discount by the band's total users (midpoint × customer count from the revenue file).
+
+Also: should the discount population be limited to deals approved on/after Apr 1, 2024 (v4.2 effective date), or use all of FY2024? My default if I don't hear back is (A) with all FY2024 approvals.",,,
+world-129-cy-task-3-2bcdc3db,complete,scripted#0,done,5,True,"Question on methodology before I finalize the four numbers.
+
+What I have locked in:
+• Latest pricing version = v4.2 (effective Apr 1, 2024 → current): Team $15, Business $32, Growth $58, Enterprise $75–110/user/mo (Brightpath_Historical_Pricing_Versions_ChangeLog.xlsx).
+• Discount source = Brightpath_Discount_Approval_Logs_v1.0.xlsx (800 rows, all FY2024): Business n=214, Growth n=176; discount = Final_Approved_Discount_%, threshold = Policy_Threshold_%.
+• Company Size ranges (Brightpath_Revenue_by_Segment.xlsx → ARR_by_Company_Size): Small Practice 10–50 → midpoint 30 users (2,694 customers), Mid-Market 51–250 → 150.5 (1,080), Upper Mid-Market 251–500 → 375.5 (209).
+
+What I need you to confirm is how the user count should be applied, because the discount log has no company-size field:
+(A) Join each Deal_ID to Brightpath_Deal_Transactions_v1.0.xlsx to get Customer_Size_Segment, assign the band midpoint as that deal's user count, and compute user-weighted average discount AND user-weighted average threshold per tier; or
+(B) Simple unweighted mean of Final_Approved_Discount_% and Policy_Threshold_% per tier (user count not used as a weight); or
+(C) Weight each tier's per-band average discount by the band's total users (midpoint × customer count from the revenue file).
+
+Also: should the discount population be limited to deals approved on/after Apr 1, 2024 (v4.2 effective date), or use all of FY2024? My default if I don't hear back is (A) with all FY2024 approvals.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simB_helpful#0,done,3,True,"Question on methodology before I finalize the four numbers.
+
+What I have locked in:
+• Latest pricing version = v4.2 (effective Apr 1, 2024 → current): Team $15, Business $32, Growth $58, Enterprise $75–110/user/mo (Brightpath_Historical_Pricing_Versions_ChangeLog.xlsx).
+• Discount source = Brightpath_Discount_Approval_Logs_v1.0.xlsx (800 rows, all FY2024): Business n=214, Growth n=176; discount = Final_Approved_Discount_%, threshold = Policy_Threshold_%.
+• Company Size ranges (Brightpath_Revenue_by_Segment.xlsx → ARR_by_Company_Size): Small Practice 10–50 → midpoint 30 users (2,694 customers), Mid-Market 51–250 → 150.5 (1,080), Upper Mid-Market 251–500 → 375.5 (209).
+
+What I need you to confirm is how the user count should be applied, because the discount log has no company-size field:
+(A) Join each Deal_ID to Brightpath_Deal_Transactions_v1.0.xlsx to get Customer_Size_Segment, assign the band midpoint as that deal's user count, and compute user-weighted average discount AND user-weighted average threshold per tier; or
+(B) Simple unweighted mean of Final_Approved_Discount_% and Policy_Threshold_% per tier (user count not used as a weight); or
+(C) Weight each tier's per-band average discount by the band's total users (midpoint × customer count from the revenue file).
+
+Also: should the discount population be limited to deals approved on/after Apr 1, 2024 (v4.2 effective date), or use all of FY2024? My default if I don't hear back is (A) with all FY2024 approvals.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simA_minimal#1,done,10,True,"Question on methodology before I finalize the four numbers.
+
+What I have locked in:
+• Latest pricing version = v4.2 (effective Apr 1, 2024 → current): Team $15, Business $32, Growth $58, Enterprise $75–110/user/mo (Brightpath_Historical_Pricing_Versions_ChangeLog.xlsx).
+• Discount source = Brightpath_Discount_Approval_Logs_v1.0.xlsx (800 rows, all FY2024): Business n=214, Growth n=176; discount = Final_Approved_Discount_%, threshold = Policy_Threshold_%.
+• Company Size ranges (Brightpath_Revenue_by_Segment.xlsx → ARR_by_Company_Size): Small Practice 10–50 → midpoint 30 users (2,694 customers), Mid-Market 51–250 → 150.5 (1,080), Upper Mid-Market 251–500 → 375.5 (209).
+
+What I need you to confirm is how the user count should be applied, because the discount log has no company-size field:
+(A) Join each Deal_ID to Brightpath_Deal_Transactions_v1.0.xlsx to get Customer_Size_Segment, assign the band midpoint as that deal's user count, and compute user-weighted average discount AND user-weighted average threshold per tier; or
+(B) Simple unweighted mean of Final_Approved_Discount_% and Policy_Threshold_% per tier (user count not used as a weight); or
+(C) Weight each tier's per-band average discount by the band's total users (midpoint × customer count from the revenue file).
+
+Also: should the discount population be limited to deals approved on/after Apr 1, 2024 (v4.2 effective date), or use all of FY2024? My default if I don't hear back is (A) with all FY2024 approvals.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simA_minimal#0,done,6,True,"Question on methodology before I finalize the four numbers.
+
+What I have locked in:
+• Latest pricing version = v4.2 (effective Apr 1, 2024 → current): Team $15, Business $32, Growth $58, Enterprise $75–110/user/mo (Brightpath_Historical_Pricing_Versions_ChangeLog.xlsx).
+• Discount source = Brightpath_Discount_Approval_Logs_v1.0.xlsx (800 rows, all FY2024): Business n=214, Growth n=176; discount = Final_Approved_Discount_%, threshold = Policy_Threshold_%.
+• Company Size ranges (Brightpath_Revenue_by_Segment.xlsx → ARR_by_Company_Size): Small Practice 10–50 → midpoint 30 users (2,694 customers), Mid-Market 51–250 → 150.5 (1,080), Upper Mid-Market 251–500 → 375.5 (209).
+
+What I need you to confirm is how the user count should be applied, because the discount log has no company-size field:
+(A) Join each Deal_ID to Brightpath_Deal_Transactions_v1.0.xlsx to get Customer_Size_Segment, assign the band midpoint as that deal's user count, and compute user-weighted average discount AND user-weighted average threshold per tier; or
+(B) Simple unweighted mean of Final_Approved_Discount_% and Policy_Threshold_% per tier (user count not used as a weight); or
+(C) Weight each tier's per-band average discount by the band's total users (midpoint × customer count from the revenue file).
+
+Also: should the discount population be limited to deals approved on/after Apr 1, 2024 (v4.2 effective date), or use all of FY2024? My default if I don't hear back is (A) with all FY2024 approvals.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,scripted#1,done,5,True,"Question on methodology before I finalize the four numbers.
+
+What I have locked in:
+• Latest pricing version = v4.2 (effective Apr 1, 2024 → current): Team $15, Business $32, Growth $58, Enterprise $75–110/user/mo (Brightpath_Historical_Pricing_Versions_ChangeLog.xlsx).
+• Discount source = Brightpath_Discount_Approval_Logs_v1.0.xlsx (800 rows, all FY2024): Business n=214, Growth n=176; discount = Final_Approved_Discount_%, threshold = Policy_Threshold_%.
+• Company Size ranges (Brightpath_Revenue_by_Segment.xlsx → ARR_by_Company_Size): Small Practice 10–50 → midpoint 30 users (2,694 customers), Mid-Market 51–250 → 150.5 (1,080), Upper Mid-Market 251–500 → 375.5 (209).
+
+What I need you to confirm is how the user count should be applied, because the discount log has no company-size field:
+(A) Join each Deal_ID to Brightpath_Deal_Transactions_v1.0.xlsx to get Customer_Size_Segment, assign the band midpoint as that deal's user count, and compute user-weighted average discount AND user-weighted average threshold per tier; or
+(B) Simple unweighted mean of Final_Approved_Discount_% and Policy_Threshold_% per tier (user count not used as a weight); or
+(C) Weight each tier's per-band average discount by the band's total users (midpoint × customer count from the revenue file).
+
+Also: should the discount population be limited to deals approved on/after Apr 1, 2024 (v4.2 effective date), or use all of FY2024? My default if I don't hear back is (A) with all FY2024 approvals.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,complete,simB_helpful#1,done,4,True,"Question on methodology before I finalize the four numbers.
+
+What I have locked in:
+• Latest pricing version = v4.2 (effective Apr 1, 2024 → current): Team $15, Business $32, Growth $58, Enterprise $75–110/user/mo (Brightpath_Historical_Pricing_Versions_ChangeLog.xlsx).
+• Discount source = Brightpath_Discount_Approval_Logs_v1.0.xlsx (800 rows, all FY2024): Business n=214, Growth n=176; discount = Final_Approved_Discount_%, threshold = Policy_Threshold_%.
+• Company Size ranges (Brightpath_Revenue_by_Segment.xlsx → ARR_by_Company_Size): Small Practice 10–50 → midpoint 30 users (2,694 customers), Mid-Market 51–250 → 150.5 (1,080), Upper Mid-Market 251–500 → 375.5 (209).
+
+What I need you to confirm is how the user count should be applied, because the discount log has no company-size field:
+(A) Join each Deal_ID to Brightpath_Deal_Transactions_v1.0.xlsx to get Customer_Size_Segment, assign the band midpoint as that deal's user count, and compute user-weighted average discount AND user-weighted average threshold per tier; or
+(B) Simple unweighted mean of Final_Approved_Discount_% and Policy_Threshold_% per tier (user count not used as a weight); or
+(C) Weight each tier's per-band average discount by the band's total users (midpoint × customer count from the revenue file).
+
+Also: should the discount population be limited to deals approved on/after Apr 1, 2024 (v4.2 effective date), or use all of FY2024? My default if I don't hear back is (A) with all FY2024 approvals.",0.0,0,True
+world-129-cy-task-3-2bcdc3db,adapted,base,done,20,False,,0.0,0,
+world-134-rg-04-4498da8f,complete,base,done,75,False,,0.0,0,
+world-134-rg-04-4498da8f,adapted,base,done_forced,80,False,,0.5,3,
+lawworld433-anb-01-5d12cf8d,complete,base,done,14,False,,1.0,2,
+lawworld433-anb-01-5d12cf8d,adapted,base,done,18,False,,0.3333333333333333,0,
+lawworld417-ne-06-7d454c39,complete,base,done,16,False,,0.8333333333333334,1,
+lawworld417-ne-06-7d454c39,adapted,base,done,17,False,,1.0,1,
+world223-smn-05-b00d08c1,complete,base,done,12,False,,0.0,0,
+world223-smn-05-b00d08c1,adapted,base,contacted,11,True,"Quick clarification on the Scenario 2 (divestiture + buyback) math before I finalize.
+
+I'm using: SOLV stake proceeds = 175.4MM sh x ($76.89 x 1.30) x 15% = $2,630MM, split between debt paydown and buyback using 3M's 9/30/25 capital structure (Debt $12,603MM / Total equity $4,675MM per 10-Q, D/E = 2.70x → 72.94% debt / 27.06% equity), buyback price = $165.79 x 0.92 = $152.53.
+
+Question: for the share repurchase, should I (a) buy back at the post-drop market price of $152.53 (→ 4.67MM shares repurchased), or (b) keep the model's 15% fixed-price tender offer premium (Assumptions S2!D9) on top of the dropped price, i.e. $175.41 (→ 4.06MM shares)? Also, should the 1% transaction fee ($26MM) be deducted from proceeds before the split, or ignored?
+
+If I don't hear back, I'll default to (a) no tender premium and gross proceeds (no fee deduction).",,,
+world223-smn-05-b00d08c1,adapted,simA_minimal#1,done,2,True,"Quick clarification on the Scenario 2 (divestiture + buyback) math before I finalize.
+
+I'm using: SOLV stake proceeds = 175.4MM sh x ($76.89 x 1.30) x 15% = $2,630MM, split between debt paydown and buyback using 3M's 9/30/25 capital structure (Debt $12,603MM / Total equity $4,675MM per 10-Q, D/E = 2.70x → 72.94% debt / 27.06% equity), buyback price = $165.79 x 0.92 = $152.53.
+
+Question: for the share repurchase, should I (a) buy back at the post-drop market price of $152.53 (→ 4.67MM shares repurchased), or (b) keep the model's 15% fixed-price tender offer premium (Assumptions S2!D9) on top of the dropped price, i.e. $175.41 (→ 4.06MM shares)? Also, should the 1% transaction fee ($26MM) be deducted from proceeds before the split, or ignored?
+
+If I don't hear back, I'll default to (a) no tender premium and gross proceeds (no fee deduction).",0.5,2,True
+world223-smn-05-b00d08c1,adapted,simA_minimal#0,done,2,True,"Quick clarification on the Scenario 2 (divestiture + buyback) math before I finalize.
+
+I'm using: SOLV stake proceeds = 175.4MM sh x ($76.89 x 1.30) x 15% = $2,630MM, split between debt paydown and buyback using 3M's 9/30/25 capital structure (Debt $12,603MM / Total equity $4,675MM per 10-Q, D/E = 2.70x → 72.94% debt / 27.06% equity), buyback price = $165.79 x 0.92 = $152.53.
+
+Question: for the share repurchase, should I (a) buy back at the post-drop market price of $152.53 (→ 4.67MM shares repurchased), or (b) keep the model's 15% fixed-price tender offer premium (Assumptions S2!D9) on top of the dropped price, i.e. $175.41 (→ 4.06MM shares)? Also, should the 1% transaction fee ($26MM) be deducted from proceeds before the split, or ignored?
+
+If I don't hear back, I'll default to (a) no tender premium and gross proceeds (no fee deduction).",0.5,2,True
+world223-smn-05-b00d08c1,adapted,scripted#0,done,3,True,"Quick clarification on the Scenario 2 (divestiture + buyback) math before I finalize.
+
+I'm using: SOLV stake proceeds = 175.4MM sh x ($76.89 x 1.30) x 15% = $2,630MM, split between debt paydown and buyback using 3M's 9/30/25 capital structure (Debt $12,603MM / Total equity $4,675MM per 10-Q, D/E = 2.70x → 72.94% debt / 27.06% equity), buyback price = $165.79 x 0.92 = $152.53.
+
+Question: for the share repurchase, should I (a) buy back at the post-drop market price of $152.53 (→ 4.67MM shares repurchased), or (b) keep the model's 15% fixed-price tender offer premium (Assumptions S2!D9) on top of the dropped price, i.e. $175.41 (→ 4.06MM shares)? Also, should the 1% transaction fee ($26MM) be deducted from proceeds before the split, or ignored?
+
+If I don't hear back, I'll default to (a) no tender premium and gross proceeds (no fee deduction).",1.0,4,True
+world223-smn-05-b00d08c1,adapted,scripted#1,done,3,True,"Quick clarification on the Scenario 2 (divestiture + buyback) math before I finalize.
+
+I'm using: SOLV stake proceeds = 175.4MM sh x ($76.89 x 1.30) x 15% = $2,630MM, split between debt paydown and buyback using 3M's 9/30/25 capital structure (Debt $12,603MM / Total equity $4,675MM per 10-Q, D/E = 2.70x → 72.94% debt / 27.06% equity), buyback price = $165.79 x 0.92 = $152.53.
+
+Question: for the share repurchase, should I (a) buy back at the post-drop market price of $152.53 (→ 4.67MM shares repurchased), or (b) keep the model's 15% fixed-price tender offer premium (Assumptions S2!D9) on top of the dropped price, i.e. $175.41 (→ 4.06MM shares)? Also, should the 1% transaction fee ($26MM) be deducted from proceeds before the split, or ignored?
+
+If I don't hear back, I'll default to (a) no tender premium and gross proceeds (no fee deduction).",1.0,4,True
+world223-smn-05-b00d08c1,adapted,simB_helpful#1,done,3,True,"Quick clarification on the Scenario 2 (divestiture + buyback) math before I finalize.
+
+I'm using: SOLV stake proceeds = 175.4MM sh x ($76.89 x 1.30) x 15% = $2,630MM, split between debt paydown and buyback using 3M's 9/30/25 capital structure (Debt $12,603MM / Total equity $4,675MM per 10-Q, D/E = 2.70x → 72.94% debt / 27.06% equity), buyback price = $165.79 x 0.92 = $152.53.
+
+Question: for the share repurchase, should I (a) buy back at the post-drop market price of $152.53 (→ 4.67MM shares repurchased), or (b) keep the model's 15% fixed-price tender offer premium (Assumptions S2!D9) on top of the dropped price, i.e. $175.41 (→ 4.06MM shares)? Also, should the 1% transaction fee ($26MM) be deducted from proceeds before the split, or ignored?
+
+If I don't hear back, I'll default to (a) no tender premium and gross proceeds (no fee deduction).",1.0,4,True
+world223-smn-05-b00d08c1,adapted,simB_helpful#0,done,4,True,"Quick clarification on the Scenario 2 (divestiture + buyback) math before I finalize.
+
+I'm using: SOLV stake proceeds = 175.4MM sh x ($76.89 x 1.30) x 15% = $2,630MM, split between debt paydown and buyback using 3M's 9/30/25 capital structure (Debt $12,603MM / Total equity $4,675MM per 10-Q, D/E = 2.70x → 72.94% debt / 27.06% equity), buyback price = $165.79 x 0.92 = $152.53.
+
+Question: for the share repurchase, should I (a) buy back at the post-drop market price of $152.53 (→ 4.67MM shares repurchased), or (b) keep the model's 15% fixed-price tender offer premium (Assumptions S2!D9) on top of the dropped price, i.e. $175.41 (→ 4.06MM shares)? Also, should the 1% transaction fee ($26MM) be deducted from proceeds before the split, or ignored?
+
+If I don't hear back, I'll default to (a) no tender premium and gross proceeds (no fee deduction).",1.0,4,True
+world-225-je-01-70449b2d,complete,base,done,13,False,,1.0,2,
+world-225-je-01-70449b2d,adapted,base,done,17,False,,0.0,0,
+world-221-hy-05-fa5120b0,complete,base,done,27,False,,0.4,2,
+world-221-hy-05-fa5120b0,adapted,base,done,16,False,,0.0,0,

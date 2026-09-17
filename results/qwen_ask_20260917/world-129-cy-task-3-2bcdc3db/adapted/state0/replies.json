@@ -1,0 +1,5 @@
+{
+ "simA_minimal": "I have no further instruction on the discount column, date window, or variance definition.\n\nFor the Revenue by Segment data, use the midpoint of the Company Size range as the user count for each segment row.",
+ "simB_helpful": "I have no further instruction on the discount column, the v4.2 date restriction, the variance definition, or whether to use ARR weighting. Proceed with your stated defaults.\n\nFor the Revenue by Segment file, use the midpoint of each Company Size range as the user count for that segment row.",
+ "scripted": "Use the midpoint of the Company Size range as the user count."
+}

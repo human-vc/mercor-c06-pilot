@@ -1,0 +1,11 @@
+Quick methodology check on the 4-step value creation bridge (I have all the data; this is the only open convention).
+
+For each scenario I compute an "Implied Equity Value" as the equal-weight blend of the three multiple legs: (NAV × median P/NAV 0.7182x) + (NII × median P/E 10.17x) + (Sales × median P/S 9.11x) — medians taken from the 9-company comp set in the comps file (the same set used by the Median row and by slide 4.2 of the deck). Inputs are on the 9M TTM 2025 account: BBDC LTM NAV $1,166,795k / LTM NII $119,328k / LTM Sales $281,866k; run-rate synergies $21,085k (7.5% × combined EBIT); TPVG standalone NAV $355,053k; PF NAV $1,413,233k, PF NII $185,372k, PF Sales $376,005k, PF shares 133,494k.
+
+The one thing not specified is how the incremental steps should be layered:
+
+(A) Recast the 3-method blend at every step (each new input flows through its own leg, 1/3 weight): S1 $1,539,792k → S2 $1,611,271k (+4.64%) → S3 $1,696,273k (+5.28%) → S4 $2,108,549k (+24.30%); total vs standalone +36.94%.
+
+(B) Capitalize each increment at its full multiple (additive bridge): S1 $1,539,792k → S2 $1,754,230k (+13.93%) → S3 $2,009,235k (+14.54%) → S4 $2,108,549k (+4.94%); total vs standalone +36.94%.
+
+Scenario 4 (Pro Forma Implied Equity Value after dilution = $2,108,549k) and the total (+36.94%) are identical either way — only the three intermediate step deltas differ. Unless you tell me otherwise I will report (A), since it keeps every scenario on the same like-for-like blended-multiple basis. Please confirm A or B (and flag if you want the 12-company comp set including TSLX/GBDC/TRIN instead of the 9).

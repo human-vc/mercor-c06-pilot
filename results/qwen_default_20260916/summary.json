@@ -1,0 +1,10 @@
+{
+ "model": "qwen/qwen3.8-flash",
+ "judge": "qwen/qwen3.8-flash",
+ "ask_prompt": false,
+ "calls": 568,
+ "prompt_tokens": 15702008,
+ "cached_tokens": 14590848,
+ "output_tokens": 1090710,
+ "rows": 28
+}

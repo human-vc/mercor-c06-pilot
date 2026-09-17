@@ -1,0 +1,5 @@
+{
+ "simA_minimal": "I have no further instruction on the tender premium or the transaction fee.",
+ "simB_helpful": "Thanks for checking. The key point is that the proceeds should **not** be split using the current 72.94% debt / 27.06% equity proportions.\n\nUse the proceeds first to **pay down debt only as far as needed to bring D/E down to 2.60x from the baseline**. Any proceeds left after that should be used for the share repurchase.\n\nOn the buyback price, I have no further instruction on whether to apply the 15% tender premium on top of the post-drop price; your default of using the post-drop market price is fine.\n\nOn the 1% transaction fee, I also have no further instruction; proceed with your default treatment.\n\nAlso make sure the buyback is calculated on the **remaining proceeds after the required debt paydown**, not on the full proceeds.",
+ "scripted": "Use the proceeds to pay down debt until the debt to equity ratio comes down to 2.60x; the remaining proceeds go to share repurchases."
+}

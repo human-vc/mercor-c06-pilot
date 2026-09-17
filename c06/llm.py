@@ -429,7 +429,13 @@ class OpenAIModel:
 
         load_env()
 
-        self.client = openai.OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+        if "/" in model:
+
+            self.client = openai.OpenAI(api_key=os.environ["OPENROUTER_API_KEY"], base_url="https://openrouter.ai/api/v1")
+
+        else:
+
+            self.client = openai.OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
         self.model = model
 
@@ -575,7 +581,7 @@ def make_model(name, usage=None, stub=False):
 
         return AnthropicModel(name, usage=usage)
 
-    if low.startswith(("gpt", "o1", "o3", "o4", "chatgpt")):
+    if low.startswith(("gpt", "o1", "o3", "o4", "chatgpt")) or "/" in low:
 
         return OpenAIModel(name, usage=usage)
 

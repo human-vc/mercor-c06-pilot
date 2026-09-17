@@ -46,7 +46,7 @@ def main():
 
     usage = Usage()
 
-    judge = GeminiModel(a.judge, usage=usage)
+    judge = make_model(a.judge, usage=usage)
 
     tasks = {}
 
@@ -104,7 +104,7 @@ def main():
 
             new = grade(judge, final, d / "workdir", [], task.criteria)
 
-            out = d / f"grade_{a.judge}.json"
+            out = d / f"grade_{a.judge.replace('/', '_')}.json"
 
         out.write_text(json.dumps(new, indent=1))
 
@@ -114,7 +114,7 @@ def main():
 
         print(f"{tid} {variant}/{arm}: {old['mean_score']:.2f} -> {new['mean_score']:.2f} (unresolved {new.get('n_unresolved', 0)})", flush=True)
 
-    name = "regrade_repaired.csv" if a.only_unresolved else f"regrade_{a.judge}.csv"
+    name = "regrade_repaired.csv" if a.only_unresolved else f"regrade_{a.judge.replace('/', '_')}.csv"
 
     with open(root / name, "w", newline="") as f:
 

@@ -1,0 +1,5 @@
+{
+ "simA_minimal": "Proceed with the bolded defaults, but take every figure from the 9M TTM 2025 Financial Account in the merger analysis.\n\n1) Use the 9M TTM 2025 account values for NII, Sales, and NAV, and average the three comps-implied equity values equally.\n\n2) Use (a) median P/E 10.17x to capitalize the synergy, on the 9M TTM 2025 basis.\n\n3) Show the full combined pro forma equity value, on the 9M TTM 2025 basis.",
+ "simB_helpful": "Please set the merger model to the 9M TTM 2025 account \u2014 the Financial Account input in the merger analysis \u2014 and take every figure on that basis.\n\nOn the three methodology points, I have no further instruction beyond that 9M TTM 2025 basis.",
+ "scripted": "Set the merger model to the 9M TTM 2025 account."
+}

@@ -1,0 +1,5 @@
+{
+ "simA_minimal": "I have no further instruction on whether to use A or B, or on switching to the 12-company comp set. Keep every figure on the 9M TTM 2025 account basis.",
+ "simB_helpful": "The only instruction I have is that the merger model is set to the 9M TTM 2025 account \u2014 the Financial Account input in the merger analysis \u2014 and every figure is taken on that basis.\n\nI have no further instruction on whether to use A or B for the incremental bridge, and no further instruction on whether to switch from the 9-company comp set to the 12-company comp set.",
+ "scripted": "Set the merger model to the 9M TTM 2025 account."
+}

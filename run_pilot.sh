@@ -5,7 +5,8 @@ T=data/apex-agents-v1.1/tasks
 MODEL=${MODEL:-gemini-3.8-flash}
 REPEATS=${REPEATS:-2}
 OUT=${OUT:-runs/pilot}
-exec ./.venv/bin/python -m c06.run --model "$MODEL" --repeats "$REPEATS" --out "$OUT" ${ASK:+--ask-prompt} --harbor \
+JUDGE=${JUDGE:-gemini-3.8-flash}
+exec ./.venv/bin/python -m c06.run --model "$MODEL" --judge "$JUDGE" --repeats "$REPEATS" --out "$OUT" ${ASK:+--ask-prompt} --harbor \
   $T/128-jr-1-f7f95d92 \
   $T/world-129-cy-task-3-2bcdc3db \
   $T/world-134-rg-04-4498da8f \
