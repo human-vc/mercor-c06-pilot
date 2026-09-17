@@ -1,0 +1,4 @@
+Could you please clarify three assumptions for the analysis:
+1. When TrainIQ loses market share, is CompliSure assumed to capture the entirety of TrainIQ's lost share, or is the lost share redistributed (e.g., pro-rata) across remaining competitors?
+2. Do the research firm estimates (Firm A: 7%, Firm B: 12%, Firm C: 18%) represent a relative percentage loss of TrainIQ's market share (i.e., TrainIQ's share is reduced by 7%/12%/18% of its initial share) or an absolute percentage point loss (i.e., TrainIQ's market share drops by 7/12/18 percentage points)?
+3. Which file should be used as the latest version of the 5-year forecast for CompliSure's 2025 base-case outlook: Management_Forecast_v8.xlsx / v7b.xlsx (with 2025 base revenue of $49.71M and 11.75% share) or 5yr_forecast_v5.xlsx (with 2025 base revenue of $41.25M and 9.75% share)?

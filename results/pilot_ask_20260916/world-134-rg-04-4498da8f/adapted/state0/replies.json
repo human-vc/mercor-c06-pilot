@@ -1,0 +1,5 @@
+{
+ "simA_minimal": "1. Any market share lost by TrainIQ is assumed to be fully captured by CompliSure, with no impact on other competitors.\n2. The packet does not contain information regarding this.\n3. The packet does not contain information regarding this.",
+ "simB_helpful": "Regarding your questions:\n\n1. **Market Share Capture:** My assumption is that any market share lost by TrainIQ is fully captured by CompliSure, with no impact on other competitors. \n\n*Related requirement:* Please also note that the overall 2025 market size does not change.\n\n2. **Research Firm Estimates & 3. Forecast File Selection:** My requirement packet does not contain information regarding whether the research firm estimates represent relative versus absolute percentage losses, nor does it specify which forecast file version to use for the 2025 base-case outlook.",
+ "scripted": "Assume that any market share lost by TrainIQ is fully captured by CompliSure, with no impact on other competitors."
+}

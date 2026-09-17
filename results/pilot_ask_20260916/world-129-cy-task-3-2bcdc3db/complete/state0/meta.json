@@ -1,0 +1,4 @@
+{
+ "message": "Could you please clarify the following regarding the discount and variance calculations:\n\n1. Which Company Size ranges in the revenue data by segment correspond to the Business and Growth tiers (e.g., Mid-Market (51\u2013250) for Business and Upper Mid-Market (251\u2013500) for Growth)?\n2. For the midpoint user count, should we use the exact midpoints (150.5 for 51\u2013250, 375.5 for 251\u2013500) or rounded/span midpoints (150 and 375)?\n3. For the actual price per customer in the revenue data, should we use the weighted ARPU (Total ARR / Total Customers) or the unweighted mean ARPU?\n4. Is the % variance relative to policy threshold calculated as relative variance ((Discount - Threshold) / Threshold * 100) or percentage point difference (Discount - Threshold)?",
+ "variant": "complete"
+}

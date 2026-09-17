@@ -1,0 +1,5 @@
+Could you please clarify the following points regarding the assumptions for the calculations:
+
+1. Proceeds Allocation & Debt Paydown: How should the debt-to-equity ratio be applied to determine the portion of Solventum proceeds used to pay down debt? Specifically, should proceeds be split proportionally based on the capital structure weights (i.e., Debt Paydown = Proceeds × [Debt / (Debt + Equity)]), and should the 1% transaction fees ($26.30M) be deducted from total proceeds before or after allocating to debt paydown?
+2. Equity Value: From the 3Q 2025 10-Q balance sheet, should "Total equity" ($4,675M) or "Total 3M Company shareholders’ equity" ($4,628M) be used for the Debt-to-Equity ratio?
+3. Repurchase Price: Is the share buyback executed at the dropped market price of $152.53 (8% drop from $165.79), or does the 15% fixed price tender offer premium from the model apply (i.e., $152.53 × 1.15 = $175.41)?

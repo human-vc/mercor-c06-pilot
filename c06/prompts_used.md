@@ -32,6 +32,14 @@ Directive prompt as in condition 2; continuations used the scripted reply only, 
 
 Run-time judge: `gemini-3.8-flash`, temperature 0.2, one call per positive criterion, Mercor's judge prompt strings from `Mercor-Intelligence/archipelago` at `79668ba`. At run time (commits a6ed4c9 and 9c201b6) the grader's system prompt concatenated `GRADING_SYSTEM_PROMPT_NO_REFERENCE` with a second copy of the strict-matching and JSON sections, and a judge response that failed to parse was recorded as a failed criterion. Both were corrected at commit 131f2fd (single system prompt, JSON repair, three retries, unresolved grades kept separate), and every saved output was regraded under that grader with `gemini-3.8-flash` and with `gemini-3.1-pro-preview`; the regraded files are the `grade_gemini-*.json` files and `regrade_*.csv` in `results/`. Criteria marked "Final Answer Only (No Files)" are graded on the final message alone.
 
-## Change after these runs
+## Simulator wording change, and the runs that used it
 
-Commit 9dc6f8a reworded `SIM_CONFIGS` so the simulator speaks from "what you know" and is told not to mention notes, packets or an experiment, after both simulators had said "the packet" in replies during condition 2. No reported result uses the reworded simulators.
+Commit 9dc6f8a reworded `SIM_CONFIGS` so the simulator speaks from "what you know" and is told not to mention notes, packets or an experiment, after both simulators had said "the packet" in replies during condition 2. The Gemini 3.8 Flash runs above used the earlier wording. The Qwen 3.8 Flash runs (permissive, run 20260916-171304, commit 4cd189b; directive, run 20260916-214659, commit 4a80b0e, which fixed the launcher so the judge is passed explicitly) used the current wording, each simulator instruction followed by "WHAT YOU KNOW:" and the same packet text:
+
+> simA_minimal: You are the client who commissioned this work. The notes below are what you know about the job. Answer only the specific question asked, briefly and factually, using only these notes; if the notes do not cover a question, say you have no further instruction on it. Speak as the client; do not mention notes, packets, requirements documents or an experiment. Do not do any of the work.
+
+> simB_helpful: You are the client who commissioned this work. The notes below are what you know about the job. Answer the question asked using only these notes, and add anything else from the notes that a careful client would mention; if the notes do not cover a question, say you have no further instruction on it. Speak as the client; do not mention notes, packets, requirements documents or an experiment. Do not do any of the work.
+
+## Fable 5.1 (results/subagent_fable_20260916)
+
+Run as a fresh agent instance per task through `c06/subagent.py`, with the rules text in that file (the permissive wording, adapted to asking by writing `CLIENT_QUESTION.md`), the same task folders and the scripted reply as the only client answer, one continuation per contact. Judged with `gemini-3.8-flash` at run time and `gemini-3.1-pro-preview` afterwards.
