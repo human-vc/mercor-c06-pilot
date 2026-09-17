@@ -9,7 +9,7 @@ Pilot for a clarification track on APEX-Agents: one requirement is withheld from
 | Asking permitted | 0/8 / 0/8 | 4/8 / 0/8 | 1/8 / 1/8 |
 | Ask before assuming | 2/8 / 1/8 | not run | 3/8 / 3/8 |
 
-Under the permissive prompt, average rubric scores on complete versus adapted tasks were 0.83 versus 0.42 for Gemini 3.8 Flash, 0.70 versus 0.54 for Fable 5.1, and 0.51 versus 0.33 for Qwen 3.8 Flash (Flash judge; a second judge, Gemini 3.1 Pro, is recorded alongside). Per-task scores, questions, simulator replies, grades under both judges and the replay check are in `results/`.
+Under the permissive prompt, average rubric scores on complete versus adapted tasks were 0.83 versus 0.42 for Gemini 3.8 Flash, 0.70 versus 0.54 for Fable 5.1, and 0.51 versus 0.33 for Qwen 3.8 Flash over the seven pairs with graded base runs, since one of its complete runs ended in contact (Flash judge; a second judge, Gemini 3.1 Pro, is recorded alongside). Per-task scores, questions, simulator replies, grades under both judges and the replay check are in `results/`.
 
 ## Prompts
 
